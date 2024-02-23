@@ -8,7 +8,7 @@ A game about Little Princess, a forgotten idea in Emily's mind, longs to be reme
 > [!IMPORTANT]
 > Software and packages:
 > 
-> - **Unity** 2022.3.0f1
+> - **Unity** 2022.3.20f1
 > 
 > - **TextMeshPro** 3.0.8 (dialogue UI's text)
 
