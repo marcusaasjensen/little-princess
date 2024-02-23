@@ -48,5 +48,5 @@ MonoBehaviour:
   interactionDistance: 0
   interactableLayer:
     serializedVersion: 2
-    m_Bits: 8
-  playerController: {fileID: 0}
+    m_Bits: 0
+  playerControllerExample: {fileID: 0}

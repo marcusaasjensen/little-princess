@@ -18,3 +18,5 @@ MonoBehaviour:
   soundEffectList:
   - name: click
     audioClip: {fileID: 8300000, guid: 259fd810bf390cf4ebe1220e3be1a0b7, type: 3}
+  - name: paper
+    audioClip: {fileID: 8300000, guid: ba6153a1e0d45ef4999fe04d159d5447, type: 3}
