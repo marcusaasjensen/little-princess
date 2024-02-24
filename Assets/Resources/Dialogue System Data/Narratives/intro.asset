@@ -33,8 +33,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Oh...<p:tiny> Hi,<p:tiny> um,<p:short> I'm just doodling
-        something.
+      <Content>k__BackingField: Oh...<p:short> Hi,<p:short> um,<p:short> I'm just
+        doodling something.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -52,8 +52,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: <sp:0,1><sfx:paper><anim:wave s:2 a:2 sync:false>Let
-        me see...</anim>
+      <Content>k__BackingField: <em:curious><sp:0,1><sfx:paper><anim:wave s:2 a:2
+        sync:false>Let me see...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -79,4 +79,6 @@ MonoBehaviour:
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 0
   <StartFromPreviousNarrativePath>k__BackingField: 1
-  <Characters>k__BackingField: []
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}
+  - {fileID: 11400000, guid: 0d57fdd821082134b9aec6ab53ddd2f0, type: 2}
