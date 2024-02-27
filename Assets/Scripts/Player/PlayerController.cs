@@ -8,17 +8,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private float jumpCooldown;
     [SerializeField] private float airMultiplier;
+    [SerializeField] private float turnSpeed;
 
     [Header("Ground Check")]
     [SerializeField] private float playerHeight;
-    [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform orientation;
+    [SerializeField] private Transform controlOrientation;
     
     private bool _readyToJump;
     private bool _grounded;
     private Vector2 _inputDirection;
     private Vector3 _moveDirection;
     private Rigidbody _rb;
+    
+    public bool IsGrounded => _grounded;
+    public bool IsWalking => _inputDirection != Vector2.zero;
     
     public void SetMovementDirection(Vector2 input) => _inputDirection = input;
 
@@ -32,7 +37,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        _grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
+        _grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundLayer);
         
         ControlSpeed();
         
@@ -57,23 +62,24 @@ public class PlayerController : MonoBehaviour
 
     private void MovePlayer()
     {
-        _moveDirection = orientation.forward * _inputDirection.y + orientation.right * _inputDirection.x;
-        _rb.AddForce(_moveDirection.normalized * (moveSpeed * 10f * (_grounded ? 1 : airMultiplier)), ForceMode.Force);
+        _moveDirection = (orientation.forward * _inputDirection.y + orientation.right * _inputDirection.x).normalized;
+        controlOrientation.forward = Vector3.Slerp(controlOrientation.forward, _moveDirection, Time.deltaTime * turnSpeed);
+        _rb.AddForce(_moveDirection * (moveSpeed * 10f * (_grounded ? 1 : airMultiplier)), ForceMode.Force);
     }
 
     private void ControlSpeed()
     {
         var velocity = _rb.velocity;
         
-        var flatVel = new Vector3(velocity.x, 0f, velocity.z);
+        var flatVelocity = new Vector3(velocity.x, 0f, velocity.z);
 
-        if (!(flatVel.magnitude > moveSpeed))
+        if (!(flatVelocity.magnitude > moveSpeed))
         {
             return;
         }
         
-        var limitedVel = flatVel.normalized * moveSpeed;
-        _rb.velocity = new Vector3(limitedVel.x, _rb.velocity.y, limitedVel.z);
+        var limitedVelocity = flatVelocity.normalized * moveSpeed;
+        _rb.velocity = new Vector3(limitedVelocity.x, _rb.velocity.y, limitedVelocity.z);
     }
 
     private void Jump()

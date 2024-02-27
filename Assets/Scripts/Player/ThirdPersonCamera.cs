@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ThirdPersonCam : MonoBehaviour
+public class ThirdPersonCamera : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform orientation;

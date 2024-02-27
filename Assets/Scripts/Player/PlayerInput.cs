@@ -10,8 +10,8 @@ public class PlayerInput : MonoBehaviour
     
     private void Update()
     {
-        var horizontalInput = Input.GetAxis("Horizontal");
-        var verticalInput = Input.GetAxis("Vertical");
+        var horizontalInput = Input.GetAxisRaw("Horizontal");
+        var verticalInput = Input.GetAxisRaw("Vertical");
         var inputDir = new Vector2(horizontalInput, verticalInput);
 
         onPlayerMovement?.Invoke(inputDir);
