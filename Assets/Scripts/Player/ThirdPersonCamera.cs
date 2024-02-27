@@ -4,30 +4,31 @@ public class ThirdPersonCamera : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform orientation;
+    [SerializeField] private Transform playerHolder;
     [SerializeField] private Transform player;
-    [SerializeField] private Transform playerObj;
     [SerializeField] private float rotationSpeed;
 
+    
+    private Vector2 _inputDirection;
+    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
+    
+    public void SetInputDirection(Vector2 input) => _inputDirection = input;
 
-    private void Update()
+    private void FixedUpdate()
     {
-        var playerPosition = player.position;
+        _inputDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        var playerPosition = playerHolder.position;
         var camPosition = transform.position;
         var viewDir = playerPosition - new Vector3(camPosition.x, playerPosition.y, camPosition.z);
         orientation.forward = viewDir.normalized;
 
-        var horizontalInput = Input.GetAxis("Horizontal");
-        var verticalInput = Input.GetAxis("Vertical");
-        var inputDir = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        var inputDir = orientation.forward * _inputDirection.y + orientation.right * _inputDirection.x;
 
-        if (inputDir != Vector3.zero)
-        {
-            playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
-        }
+        player.forward = Vector3.Slerp(player.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
     }
 }

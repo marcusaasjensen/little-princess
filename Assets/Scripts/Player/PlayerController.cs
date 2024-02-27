@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -6,7 +7,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float groundDrag;
     [SerializeField] private float jumpForce;
-    [SerializeField] private float jumpCooldown;
     [SerializeField] private float airMultiplier;
     [SerializeField] private float turnSpeed;
 
@@ -17,12 +17,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform controlOrientation;
     
     private bool _readyToJump;
-    private bool _grounded;
     private Vector2 _inputDirection;
     private Vector3 _moveDirection;
     private Rigidbody _rb;
+
+    private float _currentMoveSpeed;
     
-    public bool IsGrounded => _grounded;
+    public bool IsGrounded { get; private set; }
+
     public bool IsWalking => _inputDirection != Vector2.zero;
     
     public void SetMovementDirection(Vector2 input) => _inputDirection = input;
@@ -31,24 +33,24 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _rb.freezeRotation = true;
-
         _readyToJump = true;
+        _currentMoveSpeed = moveSpeed;
     }
 
     private void Update()
     {
-        _grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundLayer);
+        IsGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundLayer);
         
         ControlSpeed();
         
-        _rb.drag = _grounded ? groundDrag : 0;
+        _rb.drag = IsGrounded ? groundDrag : 0;
     }
 
     private void FixedUpdate() => MovePlayer();
 
-    public void StartJump()
+    public void StartJump(float jumpCooldown)
     {
-        if (!_readyToJump || !_grounded)
+        if (!_readyToJump || !IsGrounded)
         {
             return;
         }
@@ -64,21 +66,22 @@ public class PlayerController : MonoBehaviour
     {
         _moveDirection = (orientation.forward * _inputDirection.y + orientation.right * _inputDirection.x).normalized;
         controlOrientation.forward = Vector3.Slerp(controlOrientation.forward, _moveDirection, Time.deltaTime * turnSpeed);
-        _rb.AddForce(_moveDirection * (moveSpeed * 10f * (_grounded ? 1 : airMultiplier)), ForceMode.Force);
+        _rb.AddForce(_moveDirection * (_currentMoveSpeed * 10f * (IsGrounded ? 1 : airMultiplier)), ForceMode.Force);
     }
 
     private void ControlSpeed()
     {
+        
         var velocity = _rb.velocity;
         
         var flatVelocity = new Vector3(velocity.x, 0f, velocity.z);
 
-        if (!(flatVelocity.magnitude > moveSpeed))
+        if (!(flatVelocity.magnitude > _currentMoveSpeed))
         {
             return;
         }
         
-        var limitedVelocity = flatVelocity.normalized * moveSpeed;
+        var limitedVelocity = flatVelocity.normalized * _currentMoveSpeed;
         _rb.velocity = new Vector3(limitedVelocity.x, _rb.velocity.y, limitedVelocity.z);
     }
 
@@ -90,6 +93,7 @@ public class PlayerController : MonoBehaviour
 
         _rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
-    
+
+    public void Sprint(bool isSprinting) => _currentMoveSpeed = isSprinting ? moveSpeed * 2 : moveSpeed;
     private void ResetJump() => _readyToJump = true;
 }
