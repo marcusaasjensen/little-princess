@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DialogueSystem.Data;
+using DialogueSystem.Runtime.Audio;
 using DialogueSystem.Runtime.Command;
 using DialogueSystem.Runtime.Interaction;
 using DialogueSystem.Runtime.UI;
@@ -22,6 +23,7 @@ namespace DialogueSystem.Runtime.Narration
         [Header("Options")]
         [SerializeField] private bool resetNarrativeOnLoad;
 
+        [SerializeField] private UnityEvent onNextNarrative;
         [SerializeField] private UnityEvent onNarrativeStart;
         [SerializeField] private UnityEvent onNarrativeEnd;
         
@@ -124,6 +126,7 @@ namespace DialogueSystem.Runtime.Narration
 
         private void ContinueNarrative()
         {
+            onNextNarrative?.Invoke();
             if (_narrativeQueue == null)
             {
                 FinishDialogue();

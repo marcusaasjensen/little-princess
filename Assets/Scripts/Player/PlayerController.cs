@@ -24,8 +24,6 @@ public class PlayerController : MonoBehaviour
     private float _currentMoveSpeed;
     
     public bool IsGrounded { get; private set; }
-
-    public bool IsWalking => _inputDirection != Vector2.zero;
     
     public void SetMovementDirection(Vector2 input) => _inputDirection = input;
 
@@ -42,7 +40,7 @@ public class PlayerController : MonoBehaviour
         IsGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundLayer);
         
         ControlSpeed();
-        
+
         _rb.drag = IsGrounded ? groundDrag : 0;
     }
 
@@ -82,7 +80,8 @@ public class PlayerController : MonoBehaviour
         }
         
         var limitedVelocity = flatVelocity.normalized * _currentMoveSpeed;
-        _rb.velocity = new Vector3(limitedVelocity.x, _rb.velocity.y, limitedVelocity.z);
+
+        _rb.velocity = _inputDirection == Vector2.zero ? new Vector3(0, 0, 0) : new Vector3(limitedVelocity.x, _rb.velocity.y, limitedVelocity.z);
     }
 
     private void Jump()
