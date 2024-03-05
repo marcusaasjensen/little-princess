@@ -11,4 +11,6 @@ public class PlayerAudio : MonoBehaviour
         stepsAudio.pitch = Random.Range(minMaxStepPitch.x, minMaxStepPitch.y);
         stepsAudio.Play();
     }
+    
+    public void PlayJumpAudio() => jumpAudio.Play();
 }
