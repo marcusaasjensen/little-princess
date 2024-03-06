@@ -63,7 +63,9 @@ public class PlayerController : MonoBehaviour
     private void MovePlayer()
     {
         _moveDirection = (orientation.forward * _inputDirection.y + orientation.right * _inputDirection.x).normalized;
-        controlOrientation.forward = Vector3.Slerp(controlOrientation.forward, _moveDirection, Time.deltaTime * turnSpeed);
+        var forward = controlOrientation.forward;
+        forward = Vector3.Slerp(new Vector3(forward.x, 0, forward.z), _moveDirection, Time.deltaTime * turnSpeed);
+        controlOrientation.forward = forward;
         _rb.AddForce(_moveDirection * (_currentMoveSpeed * 10f * (IsGrounded ? 1 : airMultiplier)), ForceMode.Force);
     }
 
