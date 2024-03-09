@@ -10,24 +10,12 @@ public class ThirdPersonCamera : MonoBehaviour
 
     
     private Vector2 _inputDirection;
-
-    private void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
+    private CursorLockMode _previousCursorLockMode;
 
     public void SetInputDirection(Vector2 input) => _inputDirection = input;
 
-    public void ToggleCursorLock()
-    {
-        Cursor.lockState = Cursor.lockState == CursorLockMode.Locked ? CursorLockMode.None : CursorLockMode.Locked;
-        Cursor.visible = !Cursor.visible;
-    }
-
     private void FixedUpdate()
     {
-        _inputDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         var playerPosition = playerHolder.position;
         var camPosition = transform.position;
         var viewDir = playerPosition - new Vector3(camPosition.x, playerPosition.y, camPosition.z);

@@ -28,4 +28,11 @@ public class PlayerAnimator : MonoBehaviour
     }
 
     public void AnimatePlayerSprint(bool isSprinting) => animator.SetBool(IsSprinting, isSprinting);
+
+    public void AnimatePlayerIdle()
+    {
+        animator.SetBool(IsWalking, false);
+        animator.SetBool(IsSprinting, false);
+        animator.SetBool(IsGrounded, true);
+    }
 }

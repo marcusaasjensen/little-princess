@@ -1,5 +1,6 @@
 ﻿using DialogueSystem.Scene;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace DialogueSystem.Runtime.Interaction
 {
@@ -8,9 +9,9 @@ namespace DialogueSystem.Runtime.Interaction
         [SerializeField] private Transform interactSource;
         [SerializeField] private float interactionDistance;
         [SerializeField] private LayerMask interactableLayer;
-        [SerializeField] private PlayerControllerExample playerControllerExample; //To replace with your player controller
-
-        private const KeyCode InteractionKey = KeyCode.Return;
+        [SerializeField] private Transform player;
+        [SerializeField] private KeyCode interactionKey = KeyCode.Return;
+        
         private Vector3 _rayDirection;
     
         private void Update()
@@ -18,14 +19,15 @@ namespace DialogueSystem.Runtime.Interaction
             CalculateInputDirection();
             InteractWithCharacter();
         }
-    
-        private void CalculateInputDirection() => 
-            _rayDirection = playerControllerExample.InputDirection == Vector3.zero ? _rayDirection : playerControllerExample.InputDirection;
-
+        
+        private void CalculateInputDirection()
+        {
+            _rayDirection = player.forward;
+        }
 
         private void InteractWithCharacter()
         {
-            if (!Input.GetKeyDown(InteractionKey))
+            if (!Input.GetKeyDown(interactionKey))
             {
                 return;
             }
@@ -38,7 +40,6 @@ namespace DialogueSystem.Runtime.Interaction
             }
 
             var interactable = hit.collider.GetComponent<IInteractable>();
-
             if (interactable.CanInteract)
             {
                 interactable.Interact();
@@ -53,8 +54,5 @@ namespace DialogueSystem.Runtime.Interaction
             Gizmos.color = Color.red;
             Gizmos.DrawRay(rayOrigin, rayDirection * interactionDistance);
         }
-    
-    
-
     }
 }
