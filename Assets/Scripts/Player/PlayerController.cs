@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float groundDrag;
     [SerializeField] private float jumpForce;
+    [SerializeField] private float jumpCooldown;
     [SerializeField] private float airMultiplier;
     [SerializeField] private float turnSpeed;
 
@@ -23,7 +24,8 @@ public class PlayerController : MonoBehaviour
     private float _currentMoveSpeed;
     
     public bool IsGrounded { get; private set; }
-    
+    public float JumpCooldown => jumpCooldown;
+
     public void SetMovementDirection(Vector2 input) => _inputDirection = input;
 
     private void Start()
@@ -45,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() => MovePlayer();
 
-    public void StartJump(float jumpCooldown)
+    public void StartJump()
     {
         if (!_readyToJump || !IsGrounded)
         {
@@ -70,19 +72,13 @@ public class PlayerController : MonoBehaviour
 
     private void ControlSpeed()
     {
-        
         var velocity = _rb.velocity;
         
         var flatVelocity = new Vector3(velocity.x, 0f, velocity.z);
-
-        if (!(flatVelocity.magnitude > _currentMoveSpeed))
-        {
-            return;
-        }
         
         var limitedVelocity = flatVelocity.normalized * _currentMoveSpeed;
 
-        _rb.velocity = _inputDirection == Vector2.zero ? new Vector3(0, 0, 0) : new Vector3(limitedVelocity.x, _rb.velocity.y, limitedVelocity.z);
+        _rb.velocity = _inputDirection == Vector2.zero ? new Vector3(0, velocity.y, 0) : new Vector3(limitedVelocity.x, velocity.y, limitedVelocity.z);
     }
 
     private void Jump()

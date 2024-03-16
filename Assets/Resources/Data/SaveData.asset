@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: SaveData
   m_EditorClassIdentifier: 
   currentScene: PlayerMovementScene
+  dialogueContainers:
+  - {fileID: 11400000, guid: 68ee8d00099a86b46a7b86a49fd0d5a6, type: 2}
+  - {fileID: 11400000, guid: 9e36dce916b025949b5c923f35544094, type: 2}

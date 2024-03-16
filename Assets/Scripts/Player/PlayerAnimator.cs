@@ -7,6 +7,7 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int IsWalking = Animator.StringToHash("isWalking");
     private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
     private static readonly int IsSprinting = Animator.StringToHash("isSprinting");
+    private static readonly int IsFalling = Animator.StringToHash("isFalling");
 
     public void AnimatePlayerWalk(Vector2 inputDirection)
     {
@@ -14,16 +15,17 @@ public class PlayerAnimator : MonoBehaviour
         animator.SetBool(IsWalking, isWalking);
     }
 
-    public void AnimatePlayerJump(float jumpCooldown)
+    public void AnimatePlayerJump(PlayerController controller)
     {
         if (!animator.GetBool(IsGrounded)) return;
-        StartCoroutine(AnimatePlayerJumpCoroutine(jumpCooldown));
+        StartCoroutine(AnimatePlayerJumpCoroutine(controller));
     }
 
-    private IEnumerator AnimatePlayerJumpCoroutine(float jumpCooldown)
+    private IEnumerator AnimatePlayerJumpCoroutine(PlayerController controller)
     {
         animator.SetBool(IsGrounded, false);
-        yield return new WaitForSeconds(jumpCooldown);
+        yield return new WaitForSeconds(controller.JumpCooldown);
+        yield return new WaitUntil(() => controller.IsGrounded);
         animator.SetBool(IsGrounded, true);
     }
 

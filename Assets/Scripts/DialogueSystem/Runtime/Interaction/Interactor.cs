@@ -1,6 +1,4 @@
-﻿using DialogueSystem.Scene;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
 namespace DialogueSystem.Runtime.Interaction
 {
@@ -27,14 +25,16 @@ namespace DialogueSystem.Runtime.Interaction
 
         private void InteractWithCharacter()
         {
-            if (!Input.GetKeyDown(interactionKey))
-            {
-                return;
-            }
 
             var ray = new Ray(interactSource.position, _rayDirection);
 
             if (!Physics.Raycast(ray, out var hit, interactionDistance, interactableLayer))
+            {
+                return;
+            }
+
+
+            if (!Input.GetKeyDown(interactionKey))
             {
                 return;
             }

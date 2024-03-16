@@ -4,12 +4,11 @@ using UnityEngine.Events;
 
 public class PlayerInput : MonoBehaviour
 {
-    [SerializeField] private float jumpCooldown;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
     
     [SerializeField] private UnityEvent<Vector2> onPlayerMovement;
-    [SerializeField] private UnityEvent<float> onPlayerJump;
+    [SerializeField] private UnityEvent onPlayerJump;
     [SerializeField] private UnityEvent<bool> onPlayerSprint;
     
     private void Update()
@@ -32,7 +31,7 @@ public class PlayerInput : MonoBehaviour
     {
         if (Input.GetKeyDown(jumpKey))
         {
-            onPlayerJump?.Invoke(jumpCooldown);
+            onPlayerJump?.Invoke();
         }
     }
     

@@ -42,7 +42,12 @@ namespace DialogueSystem.Data
         public AudioClip GetSoundEffect(string soundEffectName)
         {
             var soundEffect = soundEffectList.Find(s => s.Name == soundEffectName);
-            return soundEffect?.AudioClip;
+            var clip = soundEffect?.AudioClip;
+            if (clip != null)
+            {
+                clip.LoadAudioData();
+            }
+            return clip;
         }
     }
 }

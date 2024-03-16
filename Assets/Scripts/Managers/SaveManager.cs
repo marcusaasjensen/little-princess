@@ -16,5 +16,11 @@ public class SaveManager : MonoBehaviour
     public void SaveGame(string sceneName) => saveData.CurrentScene = sceneName;
     public void SaveGame(SceneManager sceneManager) => saveData.CurrentScene = sceneManager.GetCurrentScene();
     public SaveData LoadData() => saveData;
-    public void DeleteSave() => saveData.CurrentScene = string.Empty;
+
+    public void DeleteSave()
+    {
+        saveData.PlayerPosition = Vector3.zero;
+        saveData.ResetAllDialogues();
+        saveData.CurrentScene = string.Empty;
+    }
 }

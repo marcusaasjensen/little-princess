@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace DialogueSystem.Runtime.Interaction
 {
     public class InteractableDialogue : DialogueMonoBehaviour, IInteractable
     {
         [SerializeField] private bool stopInteractAtNarrativeEnd;
+        [SerializeField] private UnityEvent onInteract;
+        [SerializeField] private UnityEvent onInteractEnd;
         
         [Header("Hint")]
         [SerializeField] private Transform player;
@@ -32,13 +35,13 @@ namespace DialogueSystem.Runtime.Interaction
         {
             _originalRotation = transform.rotation;
             _hintNull = hint == null;
-            narrativeController.OnNarrativeStart.AddListener(TurnCharacterTowardsPlayerCoroutine);
-            narrativeController.OnNarrativeEnd.AddListener(ResetCharacterRotationCoroutine);
+            narrativeController.OnNarrativeStart.AddListener(() => onInteract?.Invoke());
+            narrativeController.OnNarrativeEnd.AddListener(() => onInteractEnd?.Invoke());
         }
 
         public void Interact() => StartDialogue();
-        
-        private void TurnCharacterTowardsPlayerCoroutine() => StartCoroutine(TurnCharacterTowardsPlayer());
+
+        public void TurnCharacterTowardsPlayerCoroutine() => StartCoroutine(TurnCharacterTowardsPlayer());
 
         private IEnumerator TurnCharacterTowardsPlayer()
         {
@@ -56,7 +59,7 @@ namespace DialogueSystem.Runtime.Interaction
             }
         }
 
-        private void ResetCharacterRotationCoroutine() => StartCoroutine(ResetCharacterRotation());
+        public void ResetCharacterRotationCoroutine() => StartCoroutine(ResetCharacterRotation());
         
         private IEnumerator ResetCharacterRotation()
         {

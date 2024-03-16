@@ -223,4 +223,5 @@ MonoBehaviour:
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 1
   <StartFromPreviousNarrativePath>k__BackingField: 1
-  <Characters>k__BackingField: []
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: faf6976fb12887f47b16e7fcc8637085, type: 2}

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 namespace DialogueSystem.Data
@@ -17,5 +16,11 @@ namespace DialogueSystem.Data
         //save dialogue state to scriptable object and starts to where the dialogue was left off
         [field: SerializeField] public bool StartFromPreviousNarrativePath { get; set; } = true;
         [field: SerializeField] public List<CharacterData> Characters { get; set; } = new();
+
+        public void ResetDialogue()
+        {
+            IsNarrativeEndReached = false;
+            PathToCheckpoint = string.Empty;
+        }
     }
 }
