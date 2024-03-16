@@ -223,12 +223,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: isFalling
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -402,9 +396,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.9021132
-  m_TransitionOffset: 0.20188618
-  m_ExitTime: 0.5218913
+  m_TransitionDuration: 0.40108132
+  m_TransitionOffset: 0.305131
+  m_ExitTime: 0.62513614
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

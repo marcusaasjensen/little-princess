@@ -7,8 +7,7 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly int IsWalking = Animator.StringToHash("isWalking");
     private static readonly int IsGrounded = Animator.StringToHash("isGrounded");
     private static readonly int IsSprinting = Animator.StringToHash("isSprinting");
-    private static readonly int IsFalling = Animator.StringToHash("isFalling");
-
+    
     public void AnimatePlayerWalk(Vector2 inputDirection)
     {
         var isWalking = inputDirection != Vector2.zero;
