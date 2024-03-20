@@ -1,4 +1,5 @@
 ﻿using DialogueSystem.Data;
+using DialogueSystem.Runtime.Audio;
 using DialogueSystem.Runtime.Narration;
 using UnityEngine;
 using UnityEngine.Events;
@@ -32,7 +33,7 @@ namespace DialogueSystem.Runtime.Interaction
             {
                 return;
             }
-
+            
             narrativeController.NextNarrative();
         }
 

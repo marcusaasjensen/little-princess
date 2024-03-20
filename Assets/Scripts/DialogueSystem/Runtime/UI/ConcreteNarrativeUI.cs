@@ -34,6 +34,9 @@ namespace DialogueSystem.Runtime.UI
             _currentOptionButtonList = new List<Button>();
             _textTyperNotNull = textTyper != null;
             SetUIActive(false);
+            
+            textTyper.OnTypingStart += DisableNextNarrationUI;
+            textTyper.OnTypingEnd += EnableNextNarrationUI;
         }
         
         public override void DisplayOptions(List<DialogueOption> options, bool disableChosenOptions,
@@ -62,7 +65,6 @@ namespace DialogueSystem.Runtime.UI
                     {
                         choosePathFunction(options.IndexOf(option));
                         RemoveOptions();
-                        EnableNextNarrationUI();
                     });
 
                 var buttonRect = newOptionButton.GetComponent<RectTransform>();
@@ -147,6 +149,7 @@ namespace DialogueSystem.Runtime.UI
 
         public override void DisplayAllMessage()
         {
+            EnableNextNarrationUI();
             textTyper.FinishTyping();
             messageTextContainer.maxVisibleCharacters = int.MaxValue;
         }

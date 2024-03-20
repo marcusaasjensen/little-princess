@@ -18,6 +18,9 @@ namespace DialogueSystem.Runtime.Command
             }
         }
 
-        public override void Execute() => AudioPlayer.Instance.PlaySound(_audioClip);
+        public override void Execute()
+        {
+            AudioPlayer.Instance.PlaySound(_audioClip);
+        }
     }
 }

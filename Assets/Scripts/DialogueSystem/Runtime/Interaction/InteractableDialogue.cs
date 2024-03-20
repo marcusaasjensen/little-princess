@@ -1,15 +1,20 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.Events;
 
 namespace DialogueSystem.Runtime.Interaction
 {
     public class InteractableDialogue : DialogueMonoBehaviour, IInteractable
     {
         [SerializeField] private bool stopInteractAtNarrativeEnd;
+        [SerializeField] private UnityEvent onInteract;
+        [SerializeField] private UnityEvent onInteractEnd;
         
         [Header("Hint")]
         [SerializeField] private Transform player;
         [SerializeField] private float hintRadius;
         [SerializeField] private GameObject hint;
+        [SerializeField] private float lerpSpeed;
 
         public GameObject InteractionHint => hint;
     
@@ -30,20 +35,46 @@ namespace DialogueSystem.Runtime.Interaction
         {
             _originalRotation = transform.rotation;
             _hintNull = hint == null;
-            narrativeController.OnNarrativeStart.AddListener(TurnCharacterTowardsPlayer);
-            narrativeController.OnNarrativeEnd.AddListener(ResetCharacterRotation);
+            narrativeController.OnNarrativeStart.AddListener(() => onInteract?.Invoke());
+            narrativeController.OnNarrativeEnd.AddListener(() => onInteractEnd?.Invoke());
         }
 
         public void Interact() => StartDialogue();
 
-        private void TurnCharacterTowardsPlayer()
+        public void TurnCharacterTowardsPlayerCoroutine() => StartCoroutine(TurnCharacterTowardsPlayer());
+
+        private IEnumerator TurnCharacterTowardsPlayer()
         {
-            var position = player.position;
-            position.y = transform.position.y;
-            transform.LookAt(position);
+            var targetDirection = player.position - transform.position;
+            targetDirection.y = 0f;
+
+            if (targetDirection == Vector3.zero) yield break;
+
+            var targetRotation = Quaternion.LookRotation(targetDirection);
+
+            while (Quaternion.Angle(transform.rotation, targetRotation) > 0.05f)
+            {
+                transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, lerpSpeed * Time.deltaTime);
+                yield return null;
+            }
         }
+
+        public void ResetCharacterRotationCoroutine() => StartCoroutine(ResetCharacterRotation());
         
-        private void ResetCharacterRotation() => transform.rotation = _originalRotation;
+        private IEnumerator ResetCharacterRotation()
+        {
+            var currentRotation = transform.rotation;
+            var elapsedTime = 0f;
+            
+            while (elapsedTime < 1f)
+            {
+                transform.rotation = Quaternion.Lerp(currentRotation, _originalRotation, elapsedTime);
+                elapsedTime += Time.deltaTime * lerpSpeed;
+                yield return null;
+            }
+            
+            transform.rotation = _originalRotation;
+        }
 
         private void ShowHint()
         {
