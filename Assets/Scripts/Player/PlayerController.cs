@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
         IsGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundLayer);
         
         ControlSpeed();
-
         _rb.drag = IsGrounded ? groundDrag : 0;
     }
 
@@ -83,10 +82,6 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        var velocity = _rb.velocity;
-        velocity = new Vector3(velocity.x, 0f, velocity.z);
-        _rb.velocity = velocity;
-
         _rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
 
