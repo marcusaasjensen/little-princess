@@ -78,7 +78,7 @@ MonoBehaviour:
     disableAlreadyChosenOptions: 0
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 0
-  <StartFromPreviousNarrativePath>k__BackingField: 1
+  <StartFromPreviousNarrativePath>k__BackingField: 0
   <Characters>k__BackingField:
   - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}
   - {fileID: 11400000, guid: 0d57fdd821082134b9aec6ab53ddd2f0, type: 2}

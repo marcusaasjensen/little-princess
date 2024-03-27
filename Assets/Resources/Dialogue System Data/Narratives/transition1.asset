@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d50752db9e472b8d367dcf46cdbad8, type: 3}
+  m_Name: transition1
+  m_EditorClassIdentifier: 
+  <NodeLinks>k__BackingField:
+  - <BaseNodeGuid>k__BackingField: 9d289571-7694-4c28-9c1a-a7c2046878ca
+    <PortName>k__BackingField: Next
+    <TargetNodeGuid>k__BackingField: 4ea6774b-9fd2-4bc3-8218-c838109a3c58
+  - <BaseNodeGuid>k__BackingField: 4ea6774b-9fd2-4bc3-8218-c838109a3c58
+    <PortName>k__BackingField: Output
+    <TargetNodeGuid>k__BackingField: c433812a-b534-4f08-8004-173ecfa23c93
+  - <BaseNodeGuid>k__BackingField: d7270b4c-2dc8-4371-9fde-71248c8c3a10
+    <PortName>k__BackingField: Output
+    <TargetNodeGuid>k__BackingField: 944d1c57-7a02-4cdd-8363-1f3838b18d99
+  - <BaseNodeGuid>k__BackingField: c433812a-b534-4f08-8004-173ecfa23c93
+    <PortName>k__BackingField: An engineer
+    <TargetNodeGuid>k__BackingField: d7270b4c-2dc8-4371-9fde-71248c8c3a10
+  - <BaseNodeGuid>k__BackingField: c433812a-b534-4f08-8004-173ecfa23c93
+    <PortName>k__BackingField: An artist
+    <TargetNodeGuid>k__BackingField: 246d0d5d-6c07-4a43-811c-b1a51cb2c63a
+  - <BaseNodeGuid>k__BackingField: 246d0d5d-6c07-4a43-811c-b1a51cb2c63a
+    <PortName>k__BackingField: Output
+    <TargetNodeGuid>k__BackingField: 944d1c57-7a02-4cdd-8363-1f3838b18d99
+  <DialogueNodeData>k__BackingField:
+  - guid: 9d289571-7694-4c28-9c1a-a7c2046878ca
+    dialogue: []
+    position: {x: 100, y: 200}
+    transitionNode: 0
+    entryPoint: 1
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 4ea6774b-9fd2-4bc3-8218-c838109a3c58
+    dialogue:
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Hey Emily.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Hi... Suzanne. I'm kind of busy at the moment.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: I gotta finish that piece of code by tomorrow.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Can I talk to you though?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Mmmh... Yeah? Sure.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: I've noticed you've been working non-stop lately.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: It seems like you're pushing yourself to the limit.
+        Are you doing okay?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Yeah! I'm doing okay...Really, you don't have to
+        worry about anything.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Mmh... It doesn't seem like you enjoy the work.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: I assure you that I really enjoy this.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: You're my best friend so don't take this the wrong
+        way...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: ??
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: But I feel like you've joined this computer science
+        class just to be with me.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: And it's been a really long time you haven't drawn
+        anything.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Yeah. I no longer have inspiration...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Emily.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 293.33334, y: 200}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: d7270b4c-2dc8-4371-9fde-71248c8c3a10
+    dialogue:
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: ' Of course I want to excel as an engineer. It''s
+        what I''ve been striving for.'
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Hmm, I see. It's just... you seem a bit stressed
+        lately.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Yeah, I'm sure about this. It's just the pressure
+        of this project right now.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Okay... Just remember to stay true to yourself, Emily.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 1172, y: 127.99999}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 944d1c57-7a02-4cdd-8363-1f3838b18d99
+    dialogue:
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: By the way, Emily.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Yeah?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: <onevent:fade>How's Little Princess?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 1474, y: 176.66667}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: c433812a-b534-4f08-8004-173ecfa23c93
+    dialogue:
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Who do you want to be in the future?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 626.6667, y: 218}
+    transitionNode: 0
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 246d0d5d-6c07-4a43-811c-b1a51cb2c63a
+    dialogue:
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Actually... I don't want to be an engineer.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: I know I'm meant to be doing something else.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: I had a feeling you might say that. And it makes
+        me a bit sad.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: It's been kind of rough lately. My creative side
+        is fading little by little.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: I understand. I knew you had less imagination because
+        of all of this.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 1172, y: 309.3333}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  <PathToCheckpoint>k__BackingField: 
+  <IsNarrativeEndReached>k__BackingField: 0
+  <StartFromPreviousNarrativePath>k__BackingField: 0
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}
+  - {fileID: 11400000, guid: 0d57fdd821082134b9aec6ab53ddd2f0, type: 2}
