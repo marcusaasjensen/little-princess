@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Runtime/IntroScene.unity
     guid: 5725ff2240fa9bf45bf89fd3592e32e7
   - enabled: 1
-    path: Assets/Scenes/Prototype/PlayerMovementScene.unity
-    guid: a31c8cd2b6c951042a033c5bf6549ec8
+    path: Assets/Scenes/Runtime/EmilyMindScene1.unity
+    guid: f9818a3efb7531c4da4915261a018609
+  - enabled: 1
+    path: Assets/Scenes/Runtime/EmilyMindScene2.unity
+    guid: 5db8d5247a54a7543825bd6eb8fba96a
   - enabled: 1
     path: Assets/Scenes/Runtime/SampleScene.unity
     guid: 60c8d1ade5eff404a9f02dec7f47ebe6

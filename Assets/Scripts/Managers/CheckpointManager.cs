@@ -9,12 +9,11 @@ public class CheckpointManager : MonoBehaviour
     [SerializeField] private UnityEvent onPlayerRespawn;
     private int _currentCheckpointIndex;
     
-    public static CheckpointManager Instance { get; private set; }
-    
-    private void Awake() => Instance ??= this;
+    private void Start() => _currentCheckpointIndex = 0;
 
     public void RespawnPlayer()
     {
+        print(player);
         player.transform.position = checkpoints[_currentCheckpointIndex].position;
         onPlayerRespawn.Invoke();
     }
