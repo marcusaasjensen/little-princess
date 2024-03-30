@@ -12853,7 +12853,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!136 &1426000795
 CapsuleCollider:
@@ -13675,7 +13675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483303108}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.052177776, y: 0.0000000021478683, z: -1.12223855e-10, w: 0.99863786}
+  m_LocalRotation: {x: 0.052177776, y: -0.0000000021478672, z: 1.122238e-10, w: 0.99863786}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20059,7 +20059,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777639456}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.026532687, y: -0.0000000010750202, z: 2.8533217e-11, w: 0.999648}
+  m_LocalRotation: {x: 0.026532687, y: 0.0000000010750201, z: -2.8533216e-11, w: 0.999648}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26592,7 +26592,7 @@ PrefabInstance:
       objectReference: {fileID: 580462441}
     - target: {fileID: 5212865291617325746, guid: 4772a35f038ca62409b574a3135c9eb5, type: 3}
       propertyPath: sceneName
-      value: EmilyMindScene2
+      value: TransitionScene1
       objectReference: {fileID: 0}
     - target: {fileID: 5212865291617325746, guid: 4772a35f038ca62409b574a3135c9eb5, type: 3}
       propertyPath: hintRadius
@@ -26954,10 +26954,6 @@ PrefabInstance:
       propertyPath: onPlayerMovement.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1022874874}
-    - target: {fileID: 1155298865682790523, guid: 7296dd014b7fc7d43952eddc0b376c8a, type: 3}
-      propertyPath: onPlayerMovement.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: TestWalking
-      objectReference: {fileID: 0}
     - target: {fileID: 4245102184030405989, guid: 7296dd014b7fc7d43952eddc0b376c8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.2

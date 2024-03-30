@@ -196,7 +196,13 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: <onevent:fade>How's Little Princess?
+      <Content>k__BackingField: How's Little Princess?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: <event:fade>Little Princess?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

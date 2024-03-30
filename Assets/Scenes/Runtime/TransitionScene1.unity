@@ -609,7 +609,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558556793}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0fa151d9fe197b048b75b014e669824c, type: 3}
@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -82.25}
+  m_AnchoredPosition: {x: 0, y: -67.5}
   m_SizeDelta: {x: 723.4407, y: 139.3326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782986501
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 150
+  m_lineSpacing: 112.39
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -1057,8 +1057,28 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4260599242990004087, guid: 05f972f8dd1deec459723784285c5098, type: 3}
       insertIndex: -1
       addedObject: {fileID: 558556794}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6016163019736699157, guid: 05f972f8dd1deec459723784285c5098, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874404457}
   m_SourcePrefab: {fileID: 100100000, guid: 05f972f8dd1deec459723784285c5098, type: 3}
+--- !u!1 &874404453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6016163019736699157, guid: 05f972f8dd1deec459723784285c5098, type: 3}
+  m_PrefabInstance: {fileID: 874404452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &874404457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874404453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd14e408a6c246aa9ea5c5c16d1a959f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &928953792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,7 +1745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -95.25, y: -233.58643}
+  m_AnchoredPosition: {x: -3.5, y: -293}
   m_SizeDelta: {x: 598.1503, y: 137.7296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1747149870
@@ -6993,8 +7013,8 @@ MonoBehaviour:
   textTyper: {fileID: 8806365997991487974}
   speakerNameText: {fileID: 2066818759}
   messageTextContainer: {fileID: 782986501}
-  buttonPrefab: {fileID: 1851353415986813201, guid: 4e2170dc146a1c94e8c4a48ec625ef17, type: 3}
-  disabledButtonPrefab: {fileID: 1851353415986813201, guid: 4e2170dc146a1c94e8c4a48ec625ef17, type: 3}
+  buttonPrefab: {fileID: 3923550173758696964, guid: c58df693ae168a848b2ebc92030ce4bb, type: 3}
+  disabledButtonPrefab: {fileID: 3923550173758696964, guid: 295ed0246b3b2034c99e363c0651edc1, type: 3}
   buttonsParent: {fileID: 1666634540}
   nextMessageButton: {fileID: 928953794}
   buttonOffset: {x: 20, y: 20}
@@ -7532,7 +7552,19 @@ MonoBehaviour:
         m_CallState: 2
   onNarrativeStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 874404457}
+        m_TargetAssemblyTypeName: CursorInput, Assembly-CSharp
+        m_MethodName: SetCursorLock
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onNarrativeEnd:
     m_PersistentCalls:
       m_Calls: []
