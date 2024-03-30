@@ -23,7 +23,7 @@ public class CursorInput : MonoBehaviour
         Cursor.visible = _previousCursorLockMode == CursorLockMode.None;
     }
 
-    private void Start()
+    private void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
