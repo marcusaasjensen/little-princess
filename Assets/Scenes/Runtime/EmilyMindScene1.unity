@@ -26044,7 +26044,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016803204}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.098537624, y: -0.0000000042806607, z: 4.238689e-10, w: 0.99513334}
+  m_LocalRotation: {x: 0.09853762, y: 0.000000004280661, z: -4.238689e-10, w: 0.99513334}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26592,7 +26592,7 @@ PrefabInstance:
       objectReference: {fileID: 580462441}
     - target: {fileID: 5212865291617325746, guid: 4772a35f038ca62409b574a3135c9eb5, type: 3}
       propertyPath: sceneName
-      value: TransitionScene1
+      value: IdeasMuseumExterior
       objectReference: {fileID: 0}
     - target: {fileID: 5212865291617325746, guid: 4772a35f038ca62409b574a3135c9eb5, type: 3}
       propertyPath: hintRadius

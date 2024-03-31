@@ -41,5 +41,7 @@ namespace DialogueSystem.Runtime.Interaction
         /// Start the dialogue using the narrative controller and by loading the narrative scriptable object.
         /// </summary>
         protected void StartDialogue() => narrativeController.BeginNarration(narrativeScriptableObject, dialogueEvents);
+        
+        public void ChangeDialogueContainer(DialogueContainer newDialogueContainer) => narrativeScriptableObject = newDialogueContainer;
     }
 }

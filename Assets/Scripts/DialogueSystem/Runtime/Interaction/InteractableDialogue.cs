@@ -35,11 +35,20 @@ namespace DialogueSystem.Runtime.Interaction
         {
             _originalRotation = transform.rotation;
             _hintNull = hint == null;
-            narrativeController.OnNarrativeStart.AddListener(() => onInteract?.Invoke());
-            narrativeController.OnNarrativeEnd.AddListener(() => onInteractEnd?.Invoke());
         }
 
-        public void Interact() => StartDialogue();
+        public void Interact()
+        {
+            narrativeController.OnNarrativeEnd.AddListener(InvokedEndEvent);
+            onInteract.Invoke();
+            StartDialogue();
+        }
+
+        private void InvokedEndEvent()
+        {
+            onInteractEnd.Invoke();
+            narrativeController.OnNarrativeEnd.RemoveListener(InvokedEndEvent);
+        }
 
         public void TurnCharacterTowardsPlayerCoroutine() => StartCoroutine(TurnCharacterTowardsPlayer());
 
