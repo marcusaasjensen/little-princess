@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Runtime/EmilyMindScene1.unity
     guid: f9818a3efb7531c4da4915261a018609
   - enabled: 1
+    path: Assets/Scenes/Runtime/IdeasMuseumExterior.unity
+    guid: ee3466cc2649c2244a987e8c7cdbec8e
+  - enabled: 1
+    path: Assets/Scenes/Runtime/IdeasMuseum.unity
+    guid: 29f45dfa84321014287f7307328ea23b
+  - enabled: 1
     path: Assets/Scenes/Runtime/TransitionScene1.unity
     guid: e5a1de23326ad254ebcdcb4b405c799f
   - enabled: 1

@@ -3,7 +3,57 @@ guid: 808acdabdb5e2fa45bb57d871114da68
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 66d4f3f3b199de641bfc256be3fc9510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 9f74f5be32d852442872ef106b8c6beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 97808e1de818a774f945ff1fdf97b07a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue material
+    second: {fileID: 2100000, guid: 6fd8bc292e454c641b39c4447f1eb8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark wood
+    second: {fileID: 2100000, guid: 068886db12c528341b5424f37c81ddba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 124073da29c1432428d9075a21b7d0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light wood
+    second: {fileID: 2100000, guid: 884a300e65e8baf45b1c4aa8592cc44d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white material
+    second: {fileID: 2100000, guid: 53cea3c2a0e348f4cb34c0fb6972687a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white material.001
+    second: {fileID: 2100000, guid: 0718cc46544cc8145a17988941b7464c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_garage_door
+    second: {fileID: 2100000, guid: 903275bf2d134d14c875bb5b78e49326, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

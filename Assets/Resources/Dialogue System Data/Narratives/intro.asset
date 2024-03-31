@@ -26,6 +26,12 @@ MonoBehaviour:
     disableAlreadyChosenOptions: 0
   - guid: 4ea6774b-9fd2-4bc3-8218-c838109a3c58
     dialogue:
+    - <CharacterName>k__BackingField: 
+      <Content>k__BackingField: Press SPACE to continue a dialogue.
+      <HideCharacter>k__BackingField: 1
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
       <Content>k__BackingField: Hey,<p:short> what are you drawing?
       <HideCharacter>k__BackingField: 0
@@ -74,7 +80,7 @@ MonoBehaviour:
     position: {x: 293.33334, y: 200}
     transitionNode: 1
     entryPoint: 0
-    isCheckpoint: 1
+    isCheckpoint: 0
     disableAlreadyChosenOptions: 0
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 0
