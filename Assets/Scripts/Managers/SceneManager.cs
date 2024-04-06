@@ -44,4 +44,10 @@ public class SceneManager : MonoBehaviour
     }
 
     public string GetCurrentScene() => UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+    
+    public void RestartScene()
+    {
+        var sceneName = GetCurrentScene();
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
 }

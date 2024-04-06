@@ -6,6 +6,8 @@ public class Checkpoint : MonoBehaviour
     [SerializeField] private UnityEvent onCheckpointReached;
     [SerializeField] private CheckpointManager checkpointManager;
     
+    public UnityEvent OnCheckpointReached => onCheckpointReached;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
