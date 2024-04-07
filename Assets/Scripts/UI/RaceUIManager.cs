@@ -12,7 +12,7 @@ public class RaceUIManager : MonoBehaviour
 
     public void ShowWonText(string carName)
     {
-        wonText.text = carName == "Player" ? "You won.\n\nIt's time to go home..." : $"{carName} Won.\n\nIt's gonna be okay.";
+        wonText.text = carName == "Player" ? "You won.\n\nIt's time to go home..." : $"You lost! {carName} Won.";
         wonText.gameObject.SetActive(true);
     }
     

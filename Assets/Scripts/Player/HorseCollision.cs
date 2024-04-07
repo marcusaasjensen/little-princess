@@ -7,11 +7,8 @@ public class HorseCollision : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        if (!collision.gameObject.CompareTag("Wall") && !collision.gameObject.CompareTag("Horse")) return;
-        
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            rg.AddForce(transform.forward * bumpForce, ForceMode.Impulse);
-        }
+        if (!collision.gameObject.CompareTag("Player")) return;
+
+        rg.AddForce(transform.forward * -bumpForce, ForceMode.Impulse);
     }
 }

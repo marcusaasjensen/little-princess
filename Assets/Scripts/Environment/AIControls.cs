@@ -16,6 +16,8 @@ public class AIControls : MonoBehaviour
     public float maxDistanceToReverse = 10f;
 
     public float randomJitterOnPosition = .5f;
+    
+    private bool _isFrozen;
 
     void Awake()
     {
@@ -54,8 +56,10 @@ public class AIControls : MonoBehaviour
             input.y = 1f;
             input.x = Mathf.Sign(componentRight) * 1f;
         }
-        onInput?.Invoke(input);
+        onInput?.Invoke(input * (_isFrozen ? 0 : 1));
     }
+    
+    public void FreezeInput(bool value) => _isFrozen = value;
 
     void SelectWaypoint(Transform waypoint)
     {

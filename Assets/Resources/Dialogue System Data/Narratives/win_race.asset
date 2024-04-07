@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d50752db9e472b8d367dcf46cdbad8, type: 3}
+  m_Name: win_race
+  m_EditorClassIdentifier: 
+  <NodeLinks>k__BackingField:
+  - <BaseNodeGuid>k__BackingField: e6c28481-e2f2-414a-8f25-ed99d53c866f
+    <PortName>k__BackingField: Next
+    <TargetNodeGuid>k__BackingField: 87e9bf5f-913b-4d43-9fc9-15dc36dc0090
+  <DialogueNodeData>k__BackingField:
+  - guid: e6c28481-e2f2-414a-8f25-ed99d53c866f
+    dialogue: []
+    position: {x: 100, y: 200}
+    transitionNode: 0
+    entryPoint: 1
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 87e9bf5f-913b-4d43-9fc9-15dc36dc0090
+    dialogue:
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: LITTLE PRINCESS, YOU'VE JUST WON THE RACE!!!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: I CAN'T BELIEVE THIS.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Little Princess. That was perfect.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Oh, really? Thanks Stickman!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Lucky you won that because I bet all my matchsticks.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: But most importantly, Emily will remember.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Now, it's time to move on. It's time for you to become
+        real, Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: To become real?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Yes. You are going to be free.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 282.66666, y: 200}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  <PathToCheckpoint>k__BackingField: 
+  <IsNarrativeEndReached>k__BackingField: 0
+  <StartFromPreviousNarrativePath>k__BackingField: 0
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: faf6976fb12887f47b16e7fcc8637085, type: 2}
+  - {fileID: 11400000, guid: f4e67bb38dc4a074087c6fee12654ade, type: 2}

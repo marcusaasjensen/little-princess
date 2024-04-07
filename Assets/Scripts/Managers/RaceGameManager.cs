@@ -16,7 +16,7 @@ public class RaceGameManager : MonoBehaviour
     {
         FreezePlayers(true);
         FreezeCameraFollow(true);
-        StartCoroutine("Countdown");
+        StartCoroutine(Countdown());
     }
     IEnumerator Countdown()
     {
@@ -47,12 +47,12 @@ public class RaceGameManager : MonoBehaviour
         FreezePlayers(false);
         FreezeCameraFollow(false);
     }
-    void FreezePlayers(bool freeze)
+    public void FreezePlayers(bool freeze)
     {
-        playerControls.enabled = !freeze;
+        playerControls.FreezeInput(freeze);
         foreach (var ai in aiControls)
         {
-            ai.enabled = !freeze;
+            ai.FreezeInput(freeze);
         }
     }
     
