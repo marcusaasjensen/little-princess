@@ -7,22 +7,19 @@ public class RaceGameManager : MonoBehaviour
     public FollowPlayer cameraFollow;
     public AudioClip lowBeep;
     public AudioClip highBeep;
-    
-    void Awake()
-    {
-        StartGame();
-    }
-    public void StartGame()
+
+    public void Start()
     {
         FreezePlayers(true);
         FreezeCameraFollow(true);
+    }
+    public void StartGame()
+    {
         StartCoroutine(Countdown());
     }
     IEnumerator Countdown()
     {
-        yield return new WaitForSeconds(1);
         Debug.Log("3");
-        
         tricolorLights.SetProgress(1);
         RaceAudioManager.Instance.PlayLightBeep(lowBeep);
         yield return new WaitForSeconds(1);
