@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eea9df067ccc97439867182d86b2d2f, type: 3}
   m_Name: SaveData
   m_EditorClassIdentifier: 
-  currentScene: EmilyMindScene2
+  currentScene: EmilyMindScene1
   dialogueContainers:
   - {fileID: 0}
   - {fileID: 11400000, guid: 9e36dce916b025949b5c923f35544094, type: 2}

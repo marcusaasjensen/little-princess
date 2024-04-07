@@ -53651,8 +53651,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294929473
-  m_fontColor: {r: 0.25471687, g: 0.4223579, b: 1, a: 1}
+    rgba: 4278217727
+  m_fontColor: {r: 1, g: 0.4211436, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -53973,6 +53973,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 705507995}
+  - {fileID: 1641067754}
   - {fileID: 45327302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -59949,12 +59950,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641067752}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.602959, y: 4.2271194, z: -4.122686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.602959, y: 4.2271194, z: -4.1226864}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1478361287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1670161858
 GameObject:
@@ -68525,4 +68526,3 @@ SceneRoots:
   - {fileID: 1016052540}
   - {fileID: 1478361287}
   - {fileID: 1468694492}
-  - {fileID: 1641067754}
