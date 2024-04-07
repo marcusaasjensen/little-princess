@@ -19,6 +19,14 @@ public class HorseAudio : MonoBehaviour
     {
         RaceAudioManager.Instance.ChangeWindVolume(Mathf.Abs(horse.Speed / horse.ForwardMoveSpeed));
     }
+    
+    public void Mute(bool value)
+    {
+        if(gallopSource)
+            gallopSource.mute = value;
+        if(horseSource)
+            horseSource.mute = value;
+    }
 
     public void PlayGallop(Vector2 input)
     {
