@@ -12202,17 +12202,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55bd602794a4e9d41b9365fd695caa87, type: 3}
---- !u!114 &1233204473 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3522695467934225327, guid: 05f972f8dd1deec459723784285c5098, type: 3}
-  m_PrefabInstance: {fileID: 5427255353460343547}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7f74685fc9f2c148b61174d13cb783e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1237477350
 GameObject:
   m_ObjectHideFlags: 0
@@ -26728,6 +26717,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1123294395}
     - target: {fileID: 1143022084014878100, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143022084014878100, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1123294395}
@@ -26742,7 +26735,7 @@ PrefabInstance:
     - target: {fileID: 1143022084014878100, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1233204473}
+      objectReference: {fileID: 0}
     - target: {fileID: 1143022084014878100, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
@@ -26927,6 +26920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Button
       objectReference: {fileID: 0}
+    - target: {fileID: 4816945082564720333, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5430549701974819486, guid: ba4f01cc058550445a4d7bbf6bcca5b3, type: 3}
       propertyPath: m_Name
       value: Menu
@@ -26997,7 +26994,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2111044794369595480, guid: 05f972f8dd1deec459723784285c5098, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2254779735505133489, guid: 05f972f8dd1deec459723784285c5098, type: 3}
       insertIndex: -1

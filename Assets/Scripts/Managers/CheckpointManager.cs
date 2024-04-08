@@ -13,7 +13,6 @@ public class CheckpointManager : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        print(player);
         player.transform.position = checkpoints[_currentCheckpointIndex].position;
         onPlayerRespawn.Invoke();
     }

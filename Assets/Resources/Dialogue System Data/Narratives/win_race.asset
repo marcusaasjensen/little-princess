@@ -76,7 +76,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Yes. You are going to be free.
+      <Content>k__BackingField: Yes. You are going to be free<event:fade>.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
