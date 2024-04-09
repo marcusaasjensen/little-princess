@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d50752db9e472b8d367dcf46cdbad8, type: 3}
+  m_Name: emily_race
+  m_EditorClassIdentifier: 
+  <NodeLinks>k__BackingField:
+  - <BaseNodeGuid>k__BackingField: 583a365f-ea7a-4bc9-b6c5-a138d68d7e0c
+    <PortName>k__BackingField: Next
+    <TargetNodeGuid>k__BackingField: 1d83c5fe-6ef6-4f65-a0b6-32731731b7fe
+  <DialogueNodeData>k__BackingField:
+  - guid: 583a365f-ea7a-4bc9-b6c5-a138d68d7e0c
+    dialogue: []
+    position: {x: 100, y: 200}
+    transitionNode: 0
+    entryPoint: 1
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 1d83c5fe-6ef6-4f65-a0b6-32731731b7fe
+    dialogue:
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Daddy, look at the horses! They're so pretty!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: I wish I could ride a horse like that...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Just like a little princess...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: <event:race>Wait? The race is starting!!!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 248.66667, y: 181.33334}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  <PathToCheckpoint>k__BackingField: 
+  <IsNarrativeEndReached>k__BackingField: 0
+  <StartFromPreviousNarrativePath>k__BackingField: 1
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}

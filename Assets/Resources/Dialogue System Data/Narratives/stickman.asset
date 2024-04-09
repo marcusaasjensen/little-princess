@@ -79,7 +79,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Oh... That sounds kind of sad? Nice to meet you Stickman.
+      <Content>k__BackingField: Oh... That sounds kind of sad?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -94,12 +94,6 @@ MonoBehaviour:
     - <CharacterName>k__BackingField: Stickman
       <Content>k__BackingField: But what concerns me is how much you've already faded
         for being so young!
-      <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: It seems we don't have a lot of time ahead of us.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -143,12 +137,6 @@ MonoBehaviour:
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
-    - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: You think so?
-      <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
     - <CharacterName>k__BackingField: Stickman
       <Content>k__BackingField: We need to help her. We have to save everyone here.
       <HideCharacter>k__BackingField: 0
@@ -156,8 +144,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: We need to go the Idea's Museum and understand what
-        is going on.
+      <Content>k__BackingField: We need to go to the Idea's Museum and understand
+        what is going on.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

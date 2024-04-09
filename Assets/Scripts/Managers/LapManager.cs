@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class LapManager : MonoBehaviour
 {
-    [FormerlySerializedAs("uiManager")] public RaceUIManager raceUIManager;
+    public RaceUIManager raceUIManager;
     public List<RaceCheckpoint> checkpoints;
     public int totalLaps = 3;
     public HorseIdentity winner;
+    public UnityEvent onRaceWin;
+    public UnityEvent onRaceLost;
         
     private void Start()
     {
@@ -55,18 +58,18 @@ public class LapManager : MonoBehaviour
             {
                 if (winner) return;
                 Debug.Log($"{horse.PlayerName} won!");
-                raceUIManager.ShowWonText(horse.PlayerName);
                 winner = horse;
                 if (horse.PlayerName == "Player")
                 {
                     RaceAudioManager.Instance.PlayCheckpoint();
-                    raceUIManager.ShowNextSceneText();
-                    StartCoroutine(EnableSceneInput(true));
+                    onRaceWin.Invoke();
                 }
                 else
                 {
-                    raceUIManager.ShowRestartText();
-                    StartCoroutine(EnableSceneInput(false));
+                    raceUIManager.ShowWonText(horse.PlayerName);
+                    onRaceLost.Invoke();
+                    // raceUIManager.ShowRestartText();
+                    // EnableSceneInput(false);
                 }
             }
             else
@@ -84,7 +87,12 @@ public class LapManager : MonoBehaviour
         else if (checkpointNumber == horse.LastPlayerCheckpoint + 1) horse.LastPlayerCheckpoint += 1;
     }
     
-    private IEnumerator EnableSceneInput(bool nextScene)
+    public void EnableSceneInput(bool nextScene)
+    {
+        StartCoroutine(EnableSceneInputCoroutine(nextScene));
+    }
+    
+    private IEnumerator EnableSceneInputCoroutine(bool nextScene)
     {
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         if (nextScene)

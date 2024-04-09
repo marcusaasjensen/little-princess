@@ -586,7 +586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &558556794
 Transform:
   m_ObjectHideFlags: 0
@@ -1046,7 +1046,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2111044794369595480, guid: 05f972f8dd1deec459723784285c5098, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2254779735505133489, guid: 05f972f8dd1deec459723784285c5098, type: 3}
       insertIndex: -1
@@ -1488,7 +1489,7 @@ PrefabInstance:
       objectReference: {fileID: 7393474867746018943}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: narrativeScriptableObject
@@ -1499,7 +1500,15 @@ PrefabInstance:
       value: fade
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<EventName>k__BackingField
+      value: music
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.data[0].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
@@ -1507,11 +1516,23 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.data[0].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 58970146}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 558556793}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.data[0].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
@@ -1519,7 +1540,15 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.data[0].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
@@ -1527,7 +1556,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
       propertyPath: dialogueEvents.Array.data[0].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878522162582070524, guid: f7eb1d621fe41c9498dbada524271730, type: 3}
+      propertyPath: dialogueEvents.Array.data[1].<OnDialogueEvent>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8143738142088335750, guid: f7eb1d621fe41c9498dbada524271730, type: 3}

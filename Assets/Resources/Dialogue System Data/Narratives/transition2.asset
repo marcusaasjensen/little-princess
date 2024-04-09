@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d50752db9e472b8d367dcf46cdbad8, type: 3}
+  m_Name: transition2
+  m_EditorClassIdentifier: 
+  <NodeLinks>k__BackingField:
+  - <BaseNodeGuid>k__BackingField: 2ff92284-7c37-4170-8b9a-a5db5d4ce719
+    <PortName>k__BackingField: Next
+    <TargetNodeGuid>k__BackingField: 33f63b7d-94fc-4365-9975-176658d0825b
+  <DialogueNodeData>k__BackingField:
+  - guid: 2ff92284-7c37-4170-8b9a-a5db5d4ce719
+    dialogue: []
+    position: {x: 100, y: 200}
+    transitionNode: 0
+    entryPoint: 1
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 33f63b7d-94fc-4365-9975-176658d0825b
+    dialogue:
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Hi Emily!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Hey, Suzanne! Sorry, I didn't see you there.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: No worries! So, you're drawing again?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Yeah, sort of... Just some sketches for a game I
+        want to make.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: There's this idea that's been stuck in my head.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: I've had it for a while, but I kind of forgot about
+        it.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: I see... Well, I'm glad you're getting back into
+        drawing.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: So, what's your idea about?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: <event:fade>My idea is about...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 300.66666, y: 200}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  <PathToCheckpoint>k__BackingField: 
+  <IsNarrativeEndReached>k__BackingField: 0
+  <StartFromPreviousNarrativePath>k__BackingField: 0
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: 0d57fdd821082134b9aec6ab53ddd2f0, type: 2}
+  - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}

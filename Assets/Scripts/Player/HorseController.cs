@@ -8,13 +8,17 @@ public class HorseController : MonoBehaviour
     private float _inputX;
     private float _inputY;
     private Vector2 _input;
+    
+    private bool _isFrozen;
 
     private void Update()
     {
-        _inputX = Input.GetAxis("Horizontal");
-        _inputY = Input.GetAxis("Vertical");
+        _inputX = _isFrozen ? 0 : Input.GetAxis("Horizontal");
+        _inputY = _isFrozen ? 0 : Input.GetAxis("Vertical");
         
         _input = new Vector2(_inputX, _inputY).normalized;
         onInput.Invoke(_input);
     }
+    
+    public void FreezeInput(bool value) => _isFrozen = value;
 }

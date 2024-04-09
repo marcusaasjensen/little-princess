@@ -16,7 +16,7 @@ public class SceneManager : MonoBehaviour
     {
         if (autoSaveOnSceneChange)
         {
-            SaveManager.Instance.SaveGame(GetCurrentScene());
+            //SaveManager.Instance.SaveGame(GetCurrentScene());
         }
     }
     
@@ -25,8 +25,8 @@ public class SceneManager : MonoBehaviour
 
     public void LoadScene()
     {
-        var saveData = SaveManager.Instance.LoadData();
-        UnityEngine.SceneManagement.SceneManager.LoadScene(saveData.CurrentScene);
+        //var saveData = SaveManager.Instance.LoadData();
+        //UnityEngine.SceneManagement.SceneManager.LoadScene(saveData.CurrentScene);
     }
 
     public void LoadNextScene() => UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
@@ -34,9 +34,9 @@ public class SceneManager : MonoBehaviour
     public void QuitGame(bool saveGame)
     {
         if (saveGame)
-        {
-            var sceneName = GetCurrentScene();
-            SaveManager.Instance.SaveGame(sceneName);
+        { 
+//            var sceneName = GetCurrentScene();
+//            SaveManager.Instance.SaveGame(sceneName);
         }
 
         Debug.Log("Quitting game...");

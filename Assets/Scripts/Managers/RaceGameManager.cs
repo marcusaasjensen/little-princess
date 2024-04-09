@@ -7,22 +7,19 @@ public class RaceGameManager : MonoBehaviour
     public FollowPlayer cameraFollow;
     public AudioClip lowBeep;
     public AudioClip highBeep;
-    
-    void Awake()
-    {
-        StartGame();
-    }
-    public void StartGame()
+
+    public void Start()
     {
         FreezePlayers(true);
         FreezeCameraFollow(true);
-        StartCoroutine("Countdown");
+    }
+    public void StartGame()
+    {
+        StartCoroutine(Countdown());
     }
     IEnumerator Countdown()
     {
-        yield return new WaitForSeconds(1);
         Debug.Log("3");
-        
         tricolorLights.SetProgress(1);
         RaceAudioManager.Instance.PlayLightBeep(lowBeep);
         yield return new WaitForSeconds(1);
@@ -47,12 +44,12 @@ public class RaceGameManager : MonoBehaviour
         FreezePlayers(false);
         FreezeCameraFollow(false);
     }
-    void FreezePlayers(bool freeze)
+    public void FreezePlayers(bool freeze)
     {
-        playerControls.enabled = !freeze;
+        playerControls.FreezeInput(freeze);
         foreach (var ai in aiControls)
         {
-            ai.enabled = !freeze;
+            ai.FreezeInput(freeze);
         }
     }
     
