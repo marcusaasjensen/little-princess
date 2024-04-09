@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d50752db9e472b8d367dcf46cdbad8, type: 3}
+  m_Name: stickman_end
+  m_EditorClassIdentifier: 
+  <NodeLinks>k__BackingField:
+  - <BaseNodeGuid>k__BackingField: 5bc53719-ecc1-4e56-a433-9e49b0824136
+    <PortName>k__BackingField: Next
+    <TargetNodeGuid>k__BackingField: be8ebc45-bb0d-4da5-9729-3c98a6068e63
+  <DialogueNodeData>k__BackingField:
+  - guid: 5bc53719-ecc1-4e56-a433-9e49b0824136
+    dialogue: []
+    position: {x: 100, y: 200}
+    transitionNode: 0
+    entryPoint: 1
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: be8ebc45-bb0d-4da5-9729-3c98a6068e63
+    dialogue:
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Here we are now. This is the portal to become real...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: ........
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: ......Wait....
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Mmmh?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: ......I feel....strange..........
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: .......Ouch... It hurts.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Stickman? Are you okay? Quick, you need to come with
+        me.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: .............
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: <event:music>Well... I see where this is going...
+        I don't have a lot of time.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Now, Little Princess. Listen carefully.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Stickman...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Only one idea can pass through that portal. To become
+        real.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: And it's going to be you, okay?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: But Stickman, you are... I can't do this alone...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Listen to me, Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Emily really likes you and she wants you to be alive.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: I don't understand. Why me?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Because everyone will be saved. Emily will know what
+        she is really worth thanks to you.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: She has great ideas like you, and she will show it
+        to the world.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Why are you doing this? What will happen to you,
+        Stickman?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: I'm doing this because you are special, Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Not all ideas are meant to be realized. And that's
+        okay.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Sometimes we are just an anchor point for other ideas
+        to be born.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: That's why I'm here to help you. I believe in you.
+        I care about you, Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: And I have been here long enough to understand what
+        it all means.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Stickman... But what does it all mean to you?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: In this cruel world full of absurdity...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: If you want to be alive, you have to embrace your
+        imagination.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Because in the end, what is even real? Even your
+        brain is making up a rough sketch of reality.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: But let's face it, it's more like a doodle like me
+        than a masterpiece.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: So why imagining things can ever be a bad thing?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: 'Just like Emily when she was a kid. She was so pure,
+        but then, what happened to her? '
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Where did it all go? It simply just all makes sense...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: I understand. But I don't want you to go.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: I know. I know...Now, I have said enough.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: It's my time to go, Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: You can go to the portal. And you are going to do
+        a great job.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Stickman, I will go as far as I can.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: 'Oh... And one last thing. '
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Take care of Emily for me, okay?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 302, y: 212.66667}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  <PathToCheckpoint>k__BackingField: 
+  <IsNarrativeEndReached>k__BackingField: 0
+  <StartFromPreviousNarrativePath>k__BackingField: 0
+  <Characters>k__BackingField:
+  - {fileID: 11400000, guid: f4e67bb38dc4a074087c6fee12654ade, type: 2}
+  - {fileID: 11400000, guid: faf6976fb12887f47b16e7fcc8637085, type: 2}

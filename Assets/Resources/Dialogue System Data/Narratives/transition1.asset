@@ -202,7 +202,13 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <event:fade>Little Princess?
+      <Content>k__BackingField: Little Princess?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: <event:fade>Yes, remember...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -228,7 +234,7 @@ MonoBehaviour:
   - guid: 246d0d5d-6c07-4a43-811c-b1a51cb2c63a
     dialogue:
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Actually... I don't want to be an engineer.
+      <Content>k__BackingField: <event:music>Actually... I don't want to be an engineer.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

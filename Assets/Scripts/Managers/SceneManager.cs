@@ -34,9 +34,9 @@ public class SceneManager : MonoBehaviour
     public void QuitGame(bool saveGame)
     {
         if (saveGame)
-        {
-            var sceneName = GetCurrentScene();
-            SaveManager.Instance.SaveGame(sceneName);
+        { 
+//            var sceneName = GetCurrentScene();
+//            SaveManager.Instance.SaveGame(sceneName);
         }
 
         Debug.Log("Quitting game...");
