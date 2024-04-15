@@ -16,6 +16,15 @@ MonoBehaviour:
   - <BaseNodeGuid>k__BackingField: fbdc70ab-2951-4b68-aafa-d4245556202f
     <PortName>k__BackingField: Next
     <TargetNodeGuid>k__BackingField: dca22b4f-ef9a-44d4-ae4d-e3330e04d80c
+  - <BaseNodeGuid>k__BackingField: dca22b4f-ef9a-44d4-ae4d-e3330e04d80c
+    <PortName>k__BackingField: Output
+    <TargetNodeGuid>k__BackingField: 6680209c-9372-45e5-b4f1-95635e5e7099
+  - <BaseNodeGuid>k__BackingField: 6680209c-9372-45e5-b4f1-95635e5e7099
+    <PortName>k__BackingField: Um... Nothing actually.
+    <TargetNodeGuid>k__BackingField: 35e729f0-6bcb-465d-a223-7ed9eca759cb
+  - <BaseNodeGuid>k__BackingField: 6680209c-9372-45e5-b4f1-95635e5e7099
+    <PortName>k__BackingField: Where do you come from?
+    <TargetNodeGuid>k__BackingField: 4b53e52d-0394-4530-8114-60b5afa59be4
   <DialogueNodeData>k__BackingField:
   - guid: fbdc70ab-2951-4b68-aafa-d4245556202f
     dialogue: []
@@ -27,7 +36,7 @@ MonoBehaviour:
   - guid: dca22b4f-ef9a-44d4-ae4d-e3330e04d80c
     dialogue:
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: 'Now, Little Princess. You understand.
+      <Content>k__BackingField: 'Now,<p:short> Little Princess.<p:short> You understand.
 
 '
       <HideCharacter>k__BackingField: 0
@@ -41,7 +50,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Poor Emily... What should we do?
+      <Content>k__BackingField: Poor Emily...<p:short> What should we do?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -53,26 +62,28 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Here, look, <event:crown>put this on your head.
+      <Content>k__BackingField: Here,<p:short> look,<p:short> <event:crown>put this
+        on your head.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: What is it, Stickman?
+      <Content>k__BackingField: What is it,<p:short> Stickman?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: It's a memento, a souvenir from Emily's past.
+      <Content>k__BackingField: It's a memento,<p:short> a souvenir from Emily's
+        past.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: It holds the key to reminding her about you, the
-        spark that ignited her imagination.
+      <Content>k__BackingField: It holds the key to reminding her about you,<p:short>
+        the spark that ignited her imagination.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -84,15 +95,15 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: When Emily was just a child, she watched a horse
-        competition and had a moment of inspiration.
+      <Content>k__BackingField: When Emily was just a child,<p:short> she watched
+        a horse competition and had a moment of inspiration.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: She imagined a little princess riding a horse, full
-        of joy and determination.
+      <Content>k__BackingField: She imagined a little princess riding a horse,<p:short>
+        full of joy and determination.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -111,25 +122,25 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: So... That's where I come from...
+      <Content>k__BackingField: So...<p:short> That's where I come from...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Exactly. That memory is precious to Emily.
+      <Content>k__BackingField: Exactly.<p:short> That memory is precious to Emily.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Thus, she will remember you.
+      <Content>k__BackingField: Thus,<p:short> she will remember you.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: I understand, Stickman.
+      <Content>k__BackingField: I understand,<p:short> Stickman.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -142,6 +153,96 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     position: {x: 308.66666, y: 256}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 6680209c-9372-45e5-b4f1-95635e5e7099
+    dialogue:
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: By the way Stickman...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Tell me Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 696.6667, y: 264}
+    transitionNode: 0
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 4b53e52d-0394-4530-8114-60b5afa59be4
+    dialogue:
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Where do you come from,<p:short> Stickman?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Where do I come from?
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Well.<p:short> To put it simply...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: I'm Emily's first drawing of her father.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: It was the moment she started creating characters
+        to represent the people she loved the most.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: I see...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: I guess,<p:short> her father seems to have a really
+        smiley face!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: :)
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 1254.6666, y: 181.33334}
+    transitionNode: 1
+    entryPoint: 0
+    isCheckpoint: 0
+    disableAlreadyChosenOptions: 0
+  - guid: 35e729f0-6bcb-465d-a223-7ed9eca759cb
+    dialogue:
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Never mind.<p:short> I forgot what I was about to
+        ask...<p:short> Let's go!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    position: {x: 1254.6666, y: 372.66666}
     transitionNode: 1
     entryPoint: 0
     isCheckpoint: 0

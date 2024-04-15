@@ -48,7 +48,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Hi... Suzanne. I'm kind of busy at the moment.
+      <Content>k__BackingField: Hi...<p:short> Suzanne.<p:short> I'm kind of busy
+        at the moment.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -66,7 +67,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Mmmh... Yeah? Sure.
+      <Content>k__BackingField: Mmmh... Yeah?<p:short> Sure.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -78,21 +79,22 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: It seems like you're pushing yourself to the limit.
+      <Content>k__BackingField: It seems like you're pushing yourself to the limit.<p:short>
         Are you doing okay?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Yeah! I'm doing okay...Really, you don't have to
-        worry about anything.
+      <Content>k__BackingField: Yeah! I'm fine...<p:short> Really,<p:short> you don't
+        have to worry about anything.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: Mmh... It doesn't seem like you enjoy the work.
+      <Content>k__BackingField: Mmh...<p:short> It doesn't seem like you enjoy the
+        work.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -111,14 +113,14 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: ??
+      <Content>k__BackingField: What do you mean?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: But I feel like you've joined this computer science
-        class just to be with me.
+      <Content>k__BackingField: I feel like you've joined this computer science class
+        just to be with me.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -131,7 +133,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Yeah. I no longer have inspiration...
+      <Content>k__BackingField: Yeah.<p:short> I no longer have inspiration...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -150,28 +152,35 @@ MonoBehaviour:
   - guid: d7270b4c-2dc8-4371-9fde-71248c8c3a10
     dialogue:
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: ' Of course I want to excel as an engineer. It''s
-        what I''ve been striving for.'
+      <Content>k__BackingField: ' Of course I want to excel as an engineer.<p:short>
+        It''s what I''ve been striving for.'
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: Hmm, I see. It's just... you seem a bit stressed
-        lately.
+      <Content>k__BackingField: Hmm, I see.<p:short> It's just...<p:short> you seem
+        a bit stressed lately.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Yeah, I'm sure about this. It's just the pressure
-        of this project right now.
+      <Content>k__BackingField: Yeah, I'm sure about this.<p:short> It's just the
+        pressure of this project right now.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Even though I still want to create games...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: Okay... Just remember to stay true to yourself, Emily.
+      <Content>k__BackingField: Okay...<p:short> Just remember to stay true to yourself,
+        Emily.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -184,7 +193,7 @@ MonoBehaviour:
   - guid: 944d1c57-7a02-4cdd-8363-1f3838b18d99
     dialogue:
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: By the way, Emily.
+      <Content>k__BackingField: By the way,<p:short> Emily.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -196,7 +205,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: How's Little Princess?
+      <Content>k__BackingField: How is Little Princess?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -208,7 +217,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: <event:fade>Yes, remember...
+      <Content>k__BackingField: <event:fade>Yes,<p:short> remember...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -234,7 +243,8 @@ MonoBehaviour:
   - guid: 246d0d5d-6c07-4a43-811c-b1a51cb2c63a
     dialogue:
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <event:music>Actually... I don't want to be an engineer.
+      <Content>k__BackingField: <event:music>Actually...<p:short> I don't want to
+        be an engineer.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -246,22 +256,22 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: I had a feeling you might say that. And it makes
-        me a bit sad.
+      <Content>k__BackingField: I had a feeling you might say that.<p:short> And
+        it makes me a bit sad.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: It's been kind of rough lately. My creative side
-        is fading little by little.
+      <Content>k__BackingField: It's been kind of rough lately.<p:short> My creative
+        side is fading little by little.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: I understand. I knew you had less imagination because
-        of all of this.
+      <Content>k__BackingField: I understand.<p:short> I knew you had less imagination
+        because of all of this.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

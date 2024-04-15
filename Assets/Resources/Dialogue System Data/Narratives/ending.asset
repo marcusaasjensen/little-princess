@@ -27,47 +27,48 @@ MonoBehaviour:
   - guid: 1d3ecc45-e39e-4a25-a7ed-8c2e92f09620
     dialogue:
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: So... What's your idea about?
+      <Content>k__BackingField: So...<p:short> What's your idea about?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: My idea is about Little Princess. Do you remember
-        her?
+      <Content>k__BackingField: My idea is about Little Princess.<p:short> Do you
+        remember her?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: Of course I do! What about that character?
+      <Content>k__BackingField: Of course I do!<p:short> What about that character?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: I'm going to create a video game about her. Also,
-        I have finished writing the story.
+      <Content>k__BackingField: I'm going to create a video game about her.<p:short>
+        Also,<p:short> I have finished writing the story.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: Ohhh, seems interesting to me. Tell me about that
-        story.
+      <Content>k__BackingField: Ohhh,<p:short> seems interesting to me.<p:short>
+        Tell me about that story.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: "Okay, I'm going to read it for you. \nUm Um..."
+      <Content>k__BackingField: "Okay,<p:short> I'm going to read it for you.<p:short>
+        \nUm Um..."
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: '<i>The game is about Little Princess, a forgotten
-        idea in Emily''s mind, </i>
+      <Content>k__BackingField: '<i>The game is about Little Princess,<p:short> a
+        forgotten idea in Emily''s mind, </i>
 
 '
       <HideCharacter>k__BackingField: 0
@@ -81,22 +82,22 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <i>In the mundane routine of her boring studies,
+      <Content>k__BackingField: <i>In the mundane routine of her boring studies,<p:short>
         Emily loses touch with her true self and imagination.</i>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: "<i>Little Princess\u2019 goal is to guide her back
-        to Emily\u2019s creative roots.</i>"
+      <Content>k__BackingField: "<i>Little Princess\u2019 goal is to guide Emily
+        back to her creative roots.</i>"
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <i>Throughout her journey, she will meet Stickman,
-        an old idea waiting to fade into oblivion.</i>
+      <Content>k__BackingField: <i>Throughout her journey,<p:short> she will meet
+        Stickman,<p:short> an old idea waiting to fade into oblivion.</i>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -108,48 +109,85 @@ MonoBehaviour:
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
-    - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: ...
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: Interesting...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: I really like the concept of ideas becoming real.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Thanks Suzanne!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Suzanne
+      <Content>k__BackingField: <event:stop>Actually,<p:short> this reminds me of
+        the video game we are in!
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Exactly.<p:short> That's how Little Princess becomes
+        real.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Because somebody is playing the game of Little Princess
+        right now.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Reading what I'm saying.<p:short> Or spamming SPACE
+        to skip the dialogue.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Whether you are reading or not...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Thank you,<p:short> player.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Thank you for playing.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Because without you...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Emily
+      <Content>k__BackingField: Little Princess wouldn't exist.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: <event:stop><i>The end.</i>
+      <Content>k__BackingField: <sp:0,2><i>The end.</i>
       <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: Dear player.
-      <HideCharacter>k__BackingField: 1
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: Thanks for playing and I hope you have enjoyed my
-        video game.
-      <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: ' Without you, little princess would not actually
-        exist.'
-      <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: 
-      <Content>k__BackingField: Because you have been playing what Little Princess
-        has became.
-      <HideCharacter>k__BackingField: 0
-      <DialogueEvent>k__BackingField:
-        m_PersistentCalls:
-          m_Calls: []
-    - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Stick you later.
-      <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
@@ -160,7 +198,7 @@ MonoBehaviour:
     disableAlreadyChosenOptions: 0
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 0
-  <StartFromPreviousNarrativePath>k__BackingField: 1
+  <StartFromPreviousNarrativePath>k__BackingField: 0
   <Characters>k__BackingField:
   - {fileID: 11400000, guid: 0d57fdd821082134b9aec6ab53ddd2f0, type: 2}
   - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}

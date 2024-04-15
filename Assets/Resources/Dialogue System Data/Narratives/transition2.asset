@@ -33,20 +33,22 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Hey, Suzanne! Sorry, I didn't see you there.
+      <Content>k__BackingField: Hey,<p:short> Suzanne!<p:short> Sorry,<p:short> I
+        didn't see you there.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: No worries! So, you're drawing again?
+      <Content>k__BackingField: No worries!<p:short> So,<p:short> you're drawing
+        again?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Yeah, sort of... Just some sketches for a game I
-        want to make.
+      <Content>k__BackingField: Yeah,<p:short> sort of...<p:short> Just some sketches
+        for a game I want to make.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -58,27 +60,27 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: I've had it for a while, but I kind of forgot about
-        it.
+      <Content>k__BackingField: I've had it for a while,<p:short> but I kind of forgot
+        about it.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: I see... Well, I'm glad you're getting back into
-        drawing.
+      <Content>k__BackingField: I see...<p:short> Well,<p:short> I'm glad you're
+        getting back into drawing.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Suzanne
-      <Content>k__BackingField: So, what's your idea about?
+      <Content>k__BackingField: So,<p:short> what's your idea about?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <event:fade>My idea is about...
+      <Content>k__BackingField: <event:fade><sp:0,3>My idea is about...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

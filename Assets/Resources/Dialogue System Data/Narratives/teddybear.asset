@@ -27,49 +27,53 @@ MonoBehaviour:
   - guid: e29a87fa-126d-4331-92b8-953e21efa8aa
     dialogue:
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Hi! I'm Little Princess.
+      <Content>k__BackingField: Hi!<p:short> I'm Little Princess.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Teddy Bear
-      <Content>k__BackingField: Hi! I'm worthless ^^
+      <Content>k__BackingField: Hi!<p:short> I'm WORTHLESS<anim:wobble s:3 a:3> ^
+        ^ </anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Oh... What's going on?
+      <Content>k__BackingField: Oh...<p:short> What's going on?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Teddy Bear
-      <Content>k__BackingField: Once upon a time, I was Emily's favorite teddy bear.
+      <Content>k__BackingField: Once upon a time,<p:short> I was Emily's favorite
+        teddy bear.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Teddy Bear
-      <Content>k__BackingField: And then, one day...
+      <Content>k__BackingField: And then,<p:short> one day...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Teddy Bear
-      <Content>k__BackingField: She threw me in the trash.
+      <Content>k__BackingField: She threw me in the <anim:jitter s:2 a:2>TRASH</anim>.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Teddy Bear
-      <Content>k__BackingField: That's how I became one of her favorite Blender animation.
+      <Content>k__BackingField: That's how I became one of her favorite Blender animation!
+        <anim:wobble s:3 a:3> ^ ^ </anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Well, um, I guess that's... interesting.
+      <Content>k__BackingField: Well,<p:short> um,<p:short> I guess that's...<p:short>
+        interesting.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

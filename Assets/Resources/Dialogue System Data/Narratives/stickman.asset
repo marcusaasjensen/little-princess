@@ -27,40 +27,41 @@ MonoBehaviour:
   - guid: 8dae26af-5a2c-4844-a3c0-69d107988bdd
     dialogue:
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Hey there! It's been AGES since I've seen someone
-        as vibrant as you!
+      <Content>k__BackingField: Hey there!<p:short> It's been AGES since I've seen
+        someone as vibrant as you!
       <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: You must be the Little Princess, right?
+      <Content>k__BackingField: You must be the Little Princess,<p:short> right?
       <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Um, hi... How do you know my name?
+      <Content>k__BackingField: Um,<p:short> hi...<p:short> How do you know my name?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Don't worry, I've been wandering around Emily's mind
-        for quite some time.
+      <Content>k__BackingField: Don't worry,<p:short> I've been wandering around
+        Emily's mind for quite some time.
       <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
       <Content>k__BackingField: 'I''ve known you since you were just a tiny sketch
-        idea, like me... '
+        idea,<p:short> like me... '
       <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: But now you've grown, and I suppose you don't remember.
+      <Content>k__BackingField: But now you've grown,<p:short> and I suppose you
+        don't remember.
       <HideCharacter>k__BackingField: 1
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -72,21 +73,21 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: I'm Stickman, Emily's first character idea waiting
-        to fade into oblivion.
+      <Content>k__BackingField: I'm Stickman,<p:short> Emily's first character idea
+        waiting to fade into oblivion.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Oh... That sounds kind of sad?
+      <Content>k__BackingField: Oh...<p:short> That sounds kind of sad?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Hey, I'm fine, don't worry Little princess. I'm just
-        old.
+      <Content>k__BackingField: Hey,<p:short> I'm fine,<p:short> don't worry Little
+        princess.<p:short> I'm just old.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -99,21 +100,21 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Wait...What do you mean?
+      <Content>k__BackingField: Wait...<p:short>What do you mean?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
       <Content>k__BackingField: You are fading because Emily is forgetting about
-        you, little by little. Just like me.
+        you,<p:short> little by little.<p:short> Just like me.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: I've been here a long time too, but not knowing what
-        I was supposed to do to become real...
+      <Content>k__BackingField: I've been here a long time too,<p:short> but not
+        knowing what I was supposed to do to become real...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -131,14 +132,15 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: 'This doesn''t sound great for Emily... She might
-        be in a bad situation. '
+      <Content>k__BackingField: 'This doesn''t sound great for Emily...<p:short>
+        She might be in a bad situation. '
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: We need to help her. We have to save everyone here.
+      <Content>k__BackingField: We need to help her.<p:short> We have to save everyone
+        here.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -157,7 +159,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: I hope Emily is okay... Let's go.
+      <Content>k__BackingField: I hope Emily is okay...<p:short> Let's go.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

@@ -27,7 +27,51 @@ MonoBehaviour:
   - guid: be8ebc45-bb0d-4da5-9729-3c98a6068e63
     dialogue:
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Here we are now. This is the portal to become real...
+      <Content>k__BackingField: I must say to you,<p:short> Little Princess.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Every ideas must trust themselves to become real.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: And even when you couldn't see the invisible platforms...
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: You still trust yourself.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: And you jumped above the oblivion.<p:short> At the
+        risk of being forgotten.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: And that's good enough.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Little Princess
+      <Content>k__BackingField: Thank you,<p:short> Stickman.
+      <HideCharacter>k__BackingField: 0
+      <DialogueEvent>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <CharacterName>k__BackingField: Stickman
+      <Content>k__BackingField: Now, here we are.<p:short> This is the portal to
+        become real...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -39,7 +83,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: ......Wait....
+      <Content>k__BackingField: <anim:shake s:3 a:2>......<p:short> Wait....</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -51,39 +95,41 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: ......I feel....strange..........
+      <Content>k__BackingField: <anim:shake s:3 a:2>......I feel<p:short>....strange..........</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: .......Ouch... It hurts.
+      <Content>k__BackingField: <anim:shake s:3 a:2>.......<p:short> Ouch...<p:short>
+        It hurts.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Stickman? Are you okay? Quick, you need to come with
-        me.
+      <Content>k__BackingField: Stickman?<p:short> Are you okay?<p:short> Quick,<p:short>
+        you need to come with me.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: .............
+      <Content>k__BackingField: <anim:shake s:3 a:2>.............</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: <event:music>Well... I see where this is going...
-        I don't have a lot of time.
+      <Content>k__BackingField: <anim:shake s:3 a:2><event:music>Well...<p:short>
+        I see where this is going...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Now, Little Princess. Listen carefully.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Now,<p:short> Little Princess.<p:short>
+        Listen carefully.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -95,188 +141,201 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Only one idea can pass through that portal. To become
-        real.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Only one idea can pass through
+        that portal.<p:short> To become real.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: And it's going to be you, okay?
+      <Content>k__BackingField: <anim:shake s:3 a:2>And it's going to be you,<p:short>
+        okay?</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: But Stickman, you are... I can't do this alone...
+      <Content>k__BackingField: But Stickman,<p:short> you are...<p:short> I can't
+        do this alone...
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Listen to me, Little Princess.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Listen to me,<p:short> Little
+        Princess.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Emily really likes you and she wants you to be alive.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Emily really likes you and she
+        wants you to be alive.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: I don't understand. Why me?
+      <Content>k__BackingField: I don't understand.<p:short> Why me?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Because everyone will be saved. Emily will know what
-        she is really worth thanks to you.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Because everyone will be saved.<p:short>
+        Emily will know what she is really worth thanks to you.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: She has great ideas like you, and she will show it
-        to the world.
+      <Content>k__BackingField: <anim:shake s:3 a:2>She has great ideas like you,<p:short>
+        and she will show it to the world.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Why are you doing this? What will happen to you,
-        Stickman?
+      <Content>k__BackingField: Why are you doing this?<p:short> What will happen
+        to you,<p:short> Stickman?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: I'm doing this because you are special, Little Princess.
+      <Content>k__BackingField: <anim:shake s:3 a:2>I'm doing this because you are
+        special,<p:short> Little Princess.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Not all ideas are meant to be realized. And that's
-        okay.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Not all ideas are meant to be
+        realized.<p:short> And that's okay.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Sometimes we are just an anchor point for other ideas
-        to be born.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Sometimes we are just an anchor
+        point for other ideas to be born.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: That's why I'm here to help you. I believe in you.
-        I care about you, Little Princess.
+      <Content>k__BackingField: <anim:shake s:3 a:2>That's why I'm here to help you.<p:short>
+        I believe in you.<p:short> I care about you,<p:short> Little Princess.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: And I have been here long enough to understand what
-        it all means.
+      <Content>k__BackingField: <anim:shake s:3 a:2>And I have been here long enough
+        to understand what it all means.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Stickman... But what does it all mean to you?
+      <Content>k__BackingField: Stickman...<p:short> But what does it all mean to
+        you?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: In this cruel world full of absurdity...
+      <Content>k__BackingField: <anim:shake s:3 a:2>In this cruel world full of absurdity...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: If you want to be alive, you have to embrace your
-        imagination.
+      <Content>k__BackingField: <anim:shake s:3 a:2>If you want to be alive,<p:short>
+        you have to embrace your imagination.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Because in the end, what is even real? Even your
-        brain is making up a rough sketch of reality.
+      <Content>k__BackingField: <anim:shake s:3 a:2>Because in the end,<p:short>
+        what is even real?<p:short> Even your brain is making up a rough sketch of
+        reality.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: But let's face it, it's more like a doodle like me
-        than a masterpiece.
+      <Content>k__BackingField: <anim:shake s:3 a:2>But let's face it,<p:short> it's
+        more like a doodle like me than a masterpiece.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: So why imagining things can ever be a bad thing?
+      <Content>k__BackingField: <anim:shake s:3 a:2>So why imagining things can ever
+        be a bad thing?</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: 'Just like Emily when she was a kid. She was so pure,
-        but then, what happened to her? '
+      <Content>k__BackingField: '<anim:shake s:3 a:2>Just like Emily when she was
+        a kid.<p:short> She was so pure,<p:short> but then,<p:short> what happened
+        to her?</anim> '
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Where did it all go? It simply just all makes sense...
+      <Content>k__BackingField: <anim:shake s:3 a:2>Where did it all go?<p:short>
+        It simply just all makes sense...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: I understand. But I don't want you to go.
+      <Content>k__BackingField: I understand.<p:short> But I don't want you to go.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: I know. I know...Now, I have said enough.
+      <Content>k__BackingField: <anim:shake s:3 a:2>I know.<p:short> I know...<p:long>
+        Now,<p:short> I have said enough.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: It's my time to go, Little Princess.
+      <Content>k__BackingField: <anim:shake s:3 a:2>It's my time to go,<p:short>
+        Little Princess.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: You can go to the portal. And you are going to do
-        a great job.
+      <Content>k__BackingField: <anim:shake s:3 a:2>You can go to the portal.<p:short>
+        And you are going to do a great job!</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Stickman, I will go as far as I can.
+      <Content>k__BackingField: Stickman,<p:short> I will go as far as I can.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: 'Oh... And one last thing. '
+      <Content>k__BackingField: <anim:shake s:3 a:2>Oh...<p:short> And one last thing.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Take care of Emily for me, okay?
+      <Content>k__BackingField: <anim:shake s:3 a:3.5>Take care of Emily for me,<p:short>
+        okay?</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
