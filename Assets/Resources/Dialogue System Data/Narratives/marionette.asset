@@ -27,68 +27,74 @@ MonoBehaviour:
   - guid: e29a87fa-126d-4331-92b8-953e21efa8aa
     dialogue:
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Hellooo! Why do you look so sad?
+      <Content>k__BackingField: Hellooo!<p:short> Why do you look so sad?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: Oh? Do I look sad?!
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>Oh?<p:short> Do I look
+        sad?!<p:short></anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: No, that's not true, I'm not sad...
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>No,<p:short> that's
+        not true,<p:short> I'm not sad...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: It's just these invisible 4D chains...
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>It's just these invisible
+        4D chains...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: ' I feel like I''m always bound by them, trapped
-        in this melancholy.'
+      <Content>k__BackingField: ' <anim:wave s:2 a:2 sync:false>I feel like I''m
+        always bound by them,<p:short> trapped in this melancholy.</anim>'
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: You were created by Emily, right?
+      <Content>k__BackingField: You were created by Emily,<p:short> right?</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: That's right...
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>That's right...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: I was born out of her own melancholy...
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>I was born out of her
+        own melancholy...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: And you? Where do you come from?
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>And you?<p:short> Where
+        do you come from?</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: where do I come from?
+      <Content>k__BackingField: Where do I come from?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Marionette
-      <Content>k__BackingField: Yes, all ideas come from somewhere.
+      <Content>k__BackingField: <anim:wave s:2 a:2 sync:false>Yes,<p:short> all ideas
+        come from somewhere.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

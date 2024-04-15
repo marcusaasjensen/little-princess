@@ -33,40 +33,41 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: D'oh! Hey, kid.
+      <Content>k__BackingField: D'oh!<p:short> Hey, kid.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: That's crazy! But you seem a bit... incomplete.
+      <Content>k__BackingField: That's crazy!<p:short> But you seem a bit...<p:short>
+        incomplete.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: Was supposed to be some fancy animation, but got
-        stuck in blender purgatory.
+      <Content>k__BackingField: Was supposed to be some fancy animation,<p:short>
+        but got stuck in blender purgatory.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: Oh... So you are not a finished idea yet?
+      <Content>k__BackingField: Oh...<p:short> So you are not a finished idea yet?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: Yeah, you know, when you're halfway cooked but the
-        chef decides to take a break.
+      <Content>k__BackingField: Yeah,<p:short> you know,<p:short> when you're halfway
+        cooked but the chef decides to take a break.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: Next thing you know, you're fading away like yesterday's
-        donut.
+      <Content>k__BackingField: Next thing you know,<p:short> you're fading away
+        like yesterday's donut.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -78,34 +79,35 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: That's life kid. The Blender tutorial was too difficult
-        for her. D'oh!
+      <Content>k__BackingField: That's life kid.<p:short> The Blender tutorial was
+        too difficult for her.<p:short> D'oh!
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: Guessing not all ideas are meant to be realized.
-        Now it's my turn to fade.
+      <Content>k__BackingField: <anim:shake s:2 a:2>Guessing not all ideas are meant
+        to be realized.<p:short> Now it's my turn to fade.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: "\rWait! What do you mean, fading? No, you can't
-        just fade away like this!"
+      <Content>k__BackingField: "\rWait!<p:short> What do you mean, fading?<p:short>
+        No,<p:short> you can't just fade away like this!"
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: D'orrrhf...It hurts...
+      <Content>k__BackingField: <anim:shake s:2 a:2>D'orrrhf...<p:short> It hurts...</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Homerd
-      <Content>k__BackingField: Marge! Bring me a donut sugared with sugar.
+      <Content>k__BackingField: <anim:shake s:2 a:2>Marge!<p:short> Bring me a donut
+        sugared with sugar.</anim>
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

@@ -27,13 +27,13 @@ MonoBehaviour:
   - guid: dca22b4f-ef9a-44d4-ae4d-e3330e04d80c
     dialogue:
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: Now, you see that building over there?
+      <Content>k__BackingField: Now,<p:short> you see that building over there?
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Stickman
-      <Content>k__BackingField: This is the place where all Emily's ideas are exposed.
+      <Content>k__BackingField: This is the place where all Emily's ideas are exposed.<p:short>
         The ones she created.
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
@@ -59,7 +59,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Little Princess
-      <Content>k__BackingField: See you later, Stickman!
+      <Content>k__BackingField: See you later,<p:short> Stickman!
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:

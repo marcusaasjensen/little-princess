@@ -27,7 +27,8 @@ MonoBehaviour:
   - guid: 1d83c5fe-6ef6-4f65-a0b6-32731731b7fe
     dialogue:
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: Daddy, look at the horses! They're so pretty!
+      <Content>k__BackingField: Daddy,<p:short> look at the horses!<p:short> They're
+        so pretty!
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -45,7 +46,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - <CharacterName>k__BackingField: Emily
-      <Content>k__BackingField: <event:race>Wait? The race is starting!!!
+      <Content>k__BackingField: <event:race>Wait?<p:short> The race is starting!!!
       <HideCharacter>k__BackingField: 0
       <DialogueEvent>k__BackingField:
         m_PersistentCalls:
@@ -57,6 +58,6 @@ MonoBehaviour:
     disableAlreadyChosenOptions: 0
   <PathToCheckpoint>k__BackingField: 
   <IsNarrativeEndReached>k__BackingField: 0
-  <StartFromPreviousNarrativePath>k__BackingField: 1
+  <StartFromPreviousNarrativePath>k__BackingField: 0
   <Characters>k__BackingField:
   - {fileID: 11400000, guid: 53e535940f2ca2b4fbe4e10e280dbaa9, type: 2}
