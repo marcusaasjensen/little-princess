@@ -2,9 +2,15 @@
 
 A game about Little Princess, a forgotten idea in Emily's mind, longs to be remembered and come to life...
 
-
 > "All our dreams can come true if we have the courage to pursue them." - Walt Disney
+
+## Requirements
+According to the requirements of having at least 3 scenes, there are a total of 11 scenes in our game.
+
+However, the game is structured to have 2 main scenes, with transition scenes in between to have a coherent story throughout the game. These "transition" scenes will then be considered as our third main scene, since they are necessary for the story and show how the dialogue system was implemented.
+
 ## Installation
+
 > [!IMPORTANT]
 > Editor: **Unity** 2022.3.20f1
 > 
@@ -13,7 +19,7 @@ A game about Little Princess, a forgotten idea in Emily's mind, longs to be reme
 > - com.unity.textmeshpro: 3.0.8
 > - com.unity.cinemachine: 2.9.7
 
-What you can find in the following link: original game's music, executable, unitypackage, powerpoint presentation, and old gameplay video of the project
+What you can find in the following link: original game's music, executable, unitypackage, powerpoint presentation, and old gameplay video of the project.
 
 https://drive.google.com/drive/folders/1663u7-qi374ePd5N-kEJGXQA_BB5Moju?usp=sharing
 
@@ -23,7 +29,7 @@ Download little-princess.zip, unzip it and execute the game.
 
 ### Menu & scenes
 
-Press ESCAPE to access the pause menu (only in gameplay scenes). 
+Press ESCAPE to access the pause menu (only in gameplay scenes).
 
 If you want to access to each main scenes without having to play the entire game, access the pause menu and toggle the bottom right small arrow button to choose between one of the three main scenes: Museum, Race, or End.
 
