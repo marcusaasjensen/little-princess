@@ -60,7 +60,7 @@ Continue OR Skip dialogue: SPACE
 
 All the scripts (unless scripts provided during class exercices) used in game were created 100% from scratch. They are all inside the "Scripts" folder.
 
-For example, the dialogue system with its custom editor (Go to "Graph > Dialogue Graph Editor") were all created from scratch by Marcus Aas Jensen (group's leader).
+For example, the dialogue system with its custom editor (Go to "Graph > Dialogue Graph Editor") were all created from scratch.
 
 Group's leader already had a loit of experience using Unity
 
@@ -70,9 +70,7 @@ Stickman character's Sprite was drawn by hand.
 
 All icons such as control indications, mouse cursor, or the video game icon were created using Figma.
 
-Game's music is original and was created by Marcus Aas Jensen.
-
-Some SFX were created with real voices (Marc Pinet's voice for Stickman), or used from another game created by Marcus Aas Jensen (horse race laps SFX from "Uncanny"): https://marcus-a.itch.io/uncanny 
+Game's music is original and was created by myself.
 
 Of course, all of the models and animations from the Museum scene were created by each member of the group. Also, all the controllers were created from scratch.
 
