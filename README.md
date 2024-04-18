@@ -1,4 +1,4 @@
-# ✨Little Princess : a forgotten idea about to come to life✨
+# Little Princess : a forgotten idea about to come to life ✨
 
 A game about Little Princess, a forgotten idea in Emily's mind, longs to be remembered and come to life...
 
