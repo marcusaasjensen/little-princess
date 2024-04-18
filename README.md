@@ -19,11 +19,9 @@ However, the game is structured to have 2 main scenes, with transition scenes in
 > - com.unity.textmeshpro: 3.0.8
 > - com.unity.cinemachine: 2.9.7
 
-What you can find in the following link: original game's music, executable, unitypackage, powerpoint presentation, and old gameplay video of the project.
-
-https://drive.google.com/drive/folders/1663u7-qi374ePd5N-kEJGXQA_BB5Moju?usp=sharing
-
-Download little-princess.zip, unzip it and execute the game.
+```git
+git clone https://github.com/marcusaasjensen/little-princess.git
+```
 
 ## Instructions while playing
 
