@@ -1,15 +1,24 @@
-# Little Princess
+# ✨ Little Princess : a forgotten idea about to come to life ✨
 
 A game about Little Princess, a forgotten idea in Emily's mind, longs to be remembered and come to life...
 
 > "All our dreams can come true if we have the courage to pursue them." - Walt Disney
 
-## Requirements
+![image](https://github.com/marcusaasjensen/little-princess/assets/88457743/6b9d0bbf-11e6-41f0-b664-f17cc960a40b)
+
+## School Project Requirements 📝
+>[!WARNING]
+>This game is supposed to be a school project. Though I'm leaving it as it is, it has a lot of bugs, glitches, and is not suitable for some users (no options for performance issues and requires a pc running at 60 fps for the best experience). Therefore, make sure to read the *"Instructions while playing"* section before starting the game. 
+> Also, it is mostly a narrative game with not much gameplay into it. It is my first attempt at making a short but efficient video game story. I'm opened to any feedback on the story since it is a skill I really want to develop.
+
 According to the requirements of having at least 3 scenes, there are a total of 11 scenes in our game.
 
 However, the game is structured to have 2 main scenes, with transition scenes in between to have a coherent story throughout the game. These "transition" scenes will then be considered as our third main scene, since they are necessary for the story and show how the dialogue system was implemented.
 
-## Installation
+Thanks to Loris DRID for helping to build some elements of the different environments (museum, forest and desert, UWUKnight).
+Thanks to Arthur Rodriguez and Marc Pinet for their funny models and animations (Teddy Bear and Homerd).
+
+## Installation ⬇️
 
 > [!IMPORTANT]
 > Editor: **Unity** 2022.3.20f1
@@ -23,15 +32,17 @@ However, the game is structured to have 2 main scenes, with transition scenes in
 git clone https://github.com/marcusaasjensen/little-princess.git
 ```
 
-## Instructions while playing
+To test the game, follow the instructions on the Release page of the project on GitHub.
 
-### Menu & scenes
+## Instructions while playing 🪜
+
+### Menu & scenes 📺
 
 Press ESCAPE to access the pause menu (only in gameplay scenes).
 
 If you want to access to each main scenes without having to play the entire game, access the pause menu and toggle the bottom right small arrow button to choose between one of the three main scenes: Museum, Race, or End.
 
-### Controls
+### Controls 🎮
 
 Movement:
 - AZERTY: ZQSD
@@ -45,7 +56,7 @@ Interact: E (in case you struggle interacting, face Little Princess to the inter
 
 Continue OR Skip dialogue: SPACE
 
-# Original Assets
+# Original Assets 👾
 
 All the scripts (unless scripts provided during class exercices) used in game were created 100% from scratch. They are all inside the "Scripts" folder.
 
@@ -69,7 +80,7 @@ Though we used a lot of assets, the environment was created with a lot of though
 
 Some created assets were never used, such as the Counsellor's Office original music and the Counsellor's model.
 
-# Ressources
+# Ressources 🔗
 
 ## Gameplay Assets
 
