@@ -15,8 +15,8 @@ According to the requirements of having at least 3 scenes, there are a total of 
 
 However, the game is structured to have 2 main scenes, with transition scenes in between to have a coherent story throughout the game. These "transition" scenes will then be considered as our third main scene, since they are necessary for the story and show how the dialogue system was implemented.
 
-Thanks to Loris DRID for helping to build some elements of the different environments (museum, forest and desert, UWUKnight).
-Thanks to Arthur Rodriguez and Marc Pinet for their funny models and animations (Teddy Bear and Homerd).
+Thanks to [Loris Drid](https://github.com/LorisDrid) for helping to build some elements of the different environments (museum, forest and desert, UWUKnight).
+Thanks to [Arthur Rodriguez](https://github.com/rodriguezarthur) and [Marc Pinet](https://github.com/marcpinet) for their funny models and animations (Teddy Bear and Homerd).
 
 ## Installation ⬇️
 
